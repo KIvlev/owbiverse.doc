@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://owniverse.space/en/life/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Жизнь - Owniverse</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Owniverse</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Русский <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../ru/owniverse/" class="dropdown-item">Вселенная</a>
+</li>
+                                    
+<li>
+    <a href="../../ru/interface/" class="dropdown-item">Интерфейс</a>
+</li>
+                                    
+<li>
+    <a href="../../ru/objects/" class="dropdown-item">Объекты</a>
+</li>
+                                    
+<li>
+    <a href="../../ru/gameplay/" class="dropdown-item">Игровой процесс</a>
+</li>
+                                    
+<li>
+    <a href="../../ru/life/" class="dropdown-item">Жизнь</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">English <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../owniverse/" class="dropdown-item">Вселенная</a>
+</li>
+                                    
+<li>
+    <a href="../interface/" class="dropdown-item">Интерфейс</a>
+</li>
+                                    
+<li>
+    <a href="../objects/" class="dropdown-item">Объекты</a>
+</li>
+                                    
+<li>
+    <a href="../gameplay/" class="dropdown-item">Игровой процесс</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Жизнь</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../gameplay/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#planets-and-life" class="nav-link">Planets and Life</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#planets" class="nav-link">Planets</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#eons" class="nav-link">Eons</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#civilizations" class="nav-link">Civilizations</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#ethics" class="nav-link">Ethics</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#type-0-civilizations" class="nav-link">Type 0 Civilizations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#type-1-civilizations" class="nav-link">Type 1 Civilizations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#type-2-civilizations" class="nav-link">Type 2 Civilizations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#type-3-civilizations" class="nav-link">Type 3 Civilizations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#type-4-civilizations" class="nav-link">Type 4 Civilizations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="planets-and-life">Planets and Life</h1>
+<p>A lifeless universe is not that amusing as a living one. It is especially cute when its denizens try to seek truth, stay on the top of the world affairs and think high and mighty of themselves in general. However, in certain sense this is actually their own universe.</p>
+<h2 id="planets">Planets</h2>
+<p><strong>Planets</strong> emerge around dwarf stars when metals are sufficient. In a sense all this space construction is being made with a purpose of making planets with potential of bearing life.</p>
+<h3 id="gas-giant">Gas Giant</h3>
+<p>Large planet with a very thick atmosphere, unsuitable for life.</p>
+<h3 id="asteroid-belt">Asteroid Belt</h3>
+<p>A bunch of rocks that lack a mass to form a planet.</p>
+<h3 id="rocky-planet">Rocky Planet</h3>
+<p>A planet unsuitable for life. Too cold, too hot or wrong chemical makeup.</p>
+<h3 id="habitable-planet">Habitable Planet</h3>
+<p>There is liquid water here and life may emerge in the long run.</p>
+<h3 id="living-planet">Living Planet</h3>
+<p>Denizens of this planet show great promise!</p>
+<h2 id="eons">Eons</h2>
+<p>Life advances from simpler to complex forms. The successful biological evolution is completed when the true sapience appears. Because soon after that the sapience takes matter into its own hands.</p>
+<h3 id="archean">Archean</h3>
+<p>It is difficult to notice, but these planets are full of archaea and cyanobacteria.</p>
+<h3 id="proterozoic">Proterozoic</h3>
+<p>Alongside ubiquitous amoeba these planets host algae, sponges and even molluscs.</p>
+<h3 id="paleozoic">Paleozoic</h3>
+<p>Ferns, worms, trilobites and fishes.</p>
+<h3 id="mezozoic">Mezozoic</h3>
+<p>Conifers, lizards, dinosaurs and therapsids.</p>
+<h3 id="cenozoic">Cenozoic</h3>
+<p>Flowering plants and various mammals, some of which show signs of sapience.</p>
+<h1 id="civilizations">Civilizations</h1>
+<p>Civilizations belong to different <strong>types</strong>, from 0 to 4. Inside types there is decimal divisions into <strong>levels</strong>, for example from 0.1 to 0.9 with the next step to 1.0. Level always is shown alongside its type, for example 1.2.</p>
+<p>Everything is included into the level, starting from adoption of technologies and finishing with exploited space. Difference in one level means that the more advanced civilization has about <strong>tenfold</strong> advantage over a less developed one.</p>
+<h2 id="ethics">Ethics</h2>
+<p>Each civilization has one of the six dominant <strong>ethics</strong>, which sum up different cultural values of a society. Depending on the ethic, the civilization is more or less successful in various processes, such as the progress, stability, expansion or warfare. Civilizations with different ethics make input into dissimilar trends.</p>
+<p>There are no absolutely “good” or “bad” ethics. But you may prefer ones and find others less pleasant. What to do if these “others” will become too successful in your mutual universe is for you to decide.</p>
+<h3 id="mysticism">Mysticism</h3>
+<p><strong>Mystics</strong> deeply believe in supernatural. They think that their lives are governed by a higher power. With regard to the circumstances, they are not really wrong about that.</p>
+<p>Cultures of the mystics are based on ancient traditions. Their conservative leanings keeps society stable, but cramp the adoption of the new ideas and technologies. Don't assume that mystic societies are completely backward. Only relatively so.</p>
+<p>Mystics aim the significant part of their efforts to the admiration of a higher power. This increases the efficiency of the primary resources generators, such as clouds and stars.</p>
+<h3 id="logic">Logic</h3>
+<p><strong>Logics</strong> aspire to understand the world from the scientific point of view. They defy obscurant ideas of their backward kinsmen and do not require the hypothesis of supernatural forces to function normally.</p>
+<p>Critical thinking of logics somewhat shackles your capabilities. It decreases the the efficiency of the primary resources generators, such as clouds and stars.</p>
+<p>Primary pursuit of the logics is the progress. All else being equal they advance faster than any other culture. Unfortunately because of their inclination to risky experiments their societies are not that stable as they would like to think.</p>
+<h3 id="bellicosity">Bellicosity</h3>
+<p><strong>Warriors</strong> perceive the universe with cold grim determination. They do not trust aliens and do not wish to wait for them to be first to strike, thinking of the inevitable conflict in the terms of “when”, not ”if”.</p>
+<p>Not always warriors are going for the total destruction of alien life forms. Often they are content with being the most powerful, feeling safe enough. Unfortunately, things happen.</p>
+<p>The main purpose of existence for warriors is the war. They highly doubt the efficiency of diplomatic measures.</p>
+<h3 id="friendliness">Friendliness</h3>
+<p><strong>Friends</strong> hope to live in peace and harmony with all their space neighbors. They make diplomatic contacts, constantly try to create stellar leagues, communities and organizations, based on principles of mutual trust and respect.</p>
+<p>They use military actions only when all the other possibilities have been tried and did not provided adequate results, and also when it is no longer possible to sit it out.</p>
+<p>While they are open to everything new, their attention is focused away from the most practical aspects of reality. This slows progress somewhat.</p>
+<h3 id="expansion">Expansion</h3>
+<p><strong>Settlers</strong> take colossal size of unclaimed cosmic expanse as a challenge. They are annoyed by empty territories without management, this is why they always try to make claims whenever it is possible.</p>
+<p>Liberty-loving societies of settlers are not very stable. Citizens have this habit to solve any conflicts and problems by emigration. In these circumstances it is difficult to make long lasting plans.</p>
+<p>Settlers themselves are pretty peaceful. But their approach on taking everything that seems not to be nailed down often provokes neighbors to rash measures, followed by escalation.</p>
+<h3 id="construction">Construction</h3>
+<p><strong>Builders</strong> dig not wide but deep. They are accustomed to make the most of what they have, and only then to go to the next source. Civilizations of builders are spread on relatively modest territory, but compared to their high cities everything else looks like backward villages.</p>
+<p>Culture of the builders does not allows for senseless squander, but they are not ascetic by any means. On the contrary, because of the extremely well-oiled economy, societies of the builders are extremely stable and quite pleasant to live in.</p>
+<p>Emigration, leaving home in search for the better chance in the unknown, seems like a wasteful and foreign concept for the builders.</p>
+<h2 id="type-0-civilizations">Type 0 Civilizations</h2>
+<p>Pre-space epoch – from a tribe to a federation.</p>
+<h3 id="civilization-00">Civilization 0.0</h3>
+<p>Lower Paleolithic. Control of fire, stone tools.</p>
+<h3 id="civilization-01">Civilization 0.1</h3>
+<p>Middle Paleolithic. Developed stone tools.</p>
+<h3 id="civilization-02">Civilization 0.2</h3>
+<p>Upper Paleolithic. Advanced stone tools, art.</p>
+<h3 id="civilization-03">Civilization 0.3</h3>
+<p>Mesolithic. Bow and arrows, fishing, boats.</p>
+<h3 id="civilization-04">Civilization 0.4</h3>
+<p>Early Neolithic. Agriculture.</p>
+<h3 id="civilization-05">Civilization 0.5</h3>
+<p>Middle Neolithic. Animal husbandry, ceramics.</p>
+<h3 id="civilization-06">Civilization 0.6</h3>
+<p>Late Neolithic. Large settlements.</p>
+<h3 id="civilization-07">Civilization 0.7</h3>
+<p>First kingdoms of copper and bronze ages. Wheel.</p>
+<h3 id="civilization-08">Civilization 0.8</h3>
+<p>Ancient empires of the iron age. Philosophy.</p>
+<h3 id="civilization-09">Civilization 0.9</h3>
+<p>Industrial age. Electronics and nuclear energy.</p>
+<h2 id="type-1-civilizations">Type 1 Civilizations</h2>
+<p>Civilizations that are busy with mastering their own solar system.</p>
+<h3 id="civilization-10">Civilization 1.0</h3>
+<p>Civilization which has completely mastered its home planet. Superconductivity, controlled nuclear fusion.</p>
+<h3 id="civilization-11">Civilization 1.1</h3>
+<p>Scientific bases on the other bodies of the home system. Launch loop, space elevator.</p>
+<h3 id="civilization-12">Civilization 1.2</h3>
+<p>Complete genetic tailoring. Cyborgization.</p>
+<h3 id="civilization-13">Civilization 1.3</h3>
+<p>Industrial asteroid mining. Colonies on the other planets of the home system.</p>
+<h3 id="civilization-14">Civilization 1.4</h3>
+<p>Harvesting of matter from the atmosphere of the gas giants.</p>
+<h3 id="civilization-15">Civilization 1.5</h3>
+<p>Space cities. Picotechnologies: manipulations on individual atoms.</p>
+<h3 id="civilization-16">Civilization 1.6</h3>
+<p>Industrial manufacturing of antimatter. First starships.</p>
+<h3 id="civilization-17">Civilization 1.7</h3>
+<p>Terraforming. Gamma-lasers.</p>
+<h3 id="civilization-18">Civilization 1.8</h3>
+<p>Space stations of continental scale.</p>
+<h3 id="civilization-19">Civilization 1.9</h3>
+<p>Partial Dyson swarm.</p>
+<h2 id="type-2-civilizations">Type 2 Civilizations</h2>
+<p>Civilizations that can expand to other stars.</p>
+<h3 id="civilization-20">Civilization 2.0</h3>
+<p>Civilization that completely exploits the energy output of its own sun.</p>
+<ul>
+<li>About 1 star is settled (handful).</li>
+</ul>
+<h3 id="civilization-21">Civilization 2.1</h3>
+<p>Change of planetary orbits.</p>
+<ul>
+<li>About 10 stars are settled (tens).</li>
+</ul>
+<h3 id="civilization-22">Civilization 2.2</h3>
+<p>Control over inertia.</p>
+<ul>
+<li>About 100 stars are settled (hundreds).</li>
+</ul>
+<h3 id="civilization-23">Civilization 2.3</h3>
+<p>Starlifting, harvesting matter from stars.</p>
+<ul>
+<li>About 1000 stars are settled (thousands).</li>
+<li>This is on the scale of a scattered star cluster.</li>
+</ul>
+<h3 id="civilization-24">Civilization 2.4</h3>
+<p>Femtotechnologies: manipulations on individual fermions.</p>
+<ul>
+<li>About 1e4 stars are settled (tens of thousands).</li>
+<li>This is on the scale of a small star cluster.</li>
+</ul>
+<h3 id="civilization-25">Civilization 2.5</h3>
+<p>Deconstruction and creation of planets.</p>
+<ul>
+<li>About 1e5 stars are settled (hundreds of thousands).</li>
+<li>This is on the scale of a medium star cluster.</li>
+</ul>
+<h3 id="civilization-26">Civilization 2.6</h3>
+<p>Complete domination of astroarchitecture over planets.</p>
+<ul>
+<li>About 1e6 stars are settled (millions).</li>
+<li>This is on the scale of a large star cluster.</li>
+</ul>
+<h3 id="civilization-27">Civilization 2.7</h3>
+<p>Giant stars resources exploitation.</p>
+<ul>
+<li>About 1e7 stars are settled (tens of millions).</li>
+<li>This is on the scale of a giant star cluster.</li>
+</ul>
+<h3 id="civilization-28">Civilization 2.8</h3>
+<p>Control over gravity.</p>
+<ul>
+<li>About 1e8 stars are settled (hundreds of millions).</li>
+</ul>
+<h3 id="civilization-29">Civilization 2.9</h3>
+<p>Movement of stars.</p>
+<ul>
+<li>About 1e9 stars are settled (billions).</li>
+<li>This is on a scale of a dwarf galaxy such as the Small Magellanic Cloud.</li>
+</ul>
+<h2 id="type-3-civilizations">Type 3 Civilizations</h2>
+<p>Civilizations of galactic scale.</p>
+<h3 id="civilization-30">Civilization 3.0</h3>
+<p>Expansion into a galactic group is available.</p>
+<ul>
+<li>About 1e10 stars are settled (tens of billions).</li>
+<li>This is on a scale of a small galaxy such as the Large Magellanic Cloud.</li>
+</ul>
+<h3 id="civilization-31">Civilization 3.1</h3>
+<ul>
+<li>About 1e11 stars are settled (hundreds of billions).</li>
+<li>This is on a scale of a medium galaxy such as the Milky Way.</li>
+</ul>
+<h3 id="civilization-32">Civilization 3.2</h3>
+<p>Utilization of white dwarfs.</p>
+<ul>
+<li>About 1e12 stars are settled (trillions).</li>
+<li>This is on a scale of a large galaxy such as the Andromeda Galaxy.</li>
+</ul>
+<h3 id="civilization-33">Civilization 3.3</h3>
+<p>Creation of black holes by focused radiation.</p>
+<ul>
+<li>About 1e13 stars are settled (tens of trillions).</li>
+<li>This is on a scale of a giant galaxy such as the IC 1101.</li>
+</ul>
+<h3 id="civilization-34">Civilization 3.4</h3>
+<p>Expansion into a galactic supercluster is available.</p>
+<ul>
+<li>About 1e14 stars are settled (hundreds of trillions) or 10 galaxies (tens).</li>
+<li>This is on a scale of a galactic group.</li>
+</ul>
+<h3 id="civilization-35">Civilization 3.5</h3>
+<p>Utilization of neutron stars.</p>
+<ul>
+<li>About 1e15 stars are settled (quadrillions) or 100 galaxies (hundreds).</li>
+</ul>
+<h3 id="civilization-36">Civilization 3.6</h3>
+<p>Expansion into a galactic filament is available.</p>
+<ul>
+<li>About 1e16 stars are settled (tens of quadrillions) or 1 000 galaxies (thousands).</li>
+<li>This is on a scale of a galactic supercluster.</li>
+</ul>
+<h3 id="civilization-37">Civilization 3.7</h3>
+<p>Utilization of magnetars.</p>
+<ul>
+<li>About 1e17 stars are settled (hundreds of quadrillions) or 1e4 galaxies (tens of thousands).</li>
+</ul>
+<h3 id="civilization-38">Civilization 3.8</h3>
+<p>Expansion into a great wall is available.</p>
+<ul>
+<li>About 1e18 stars are settled (quintillions) or 1e5 galaxies (hundreds of thousands).</li>
+<li>This is on a scale of a galactic filament.</li>
+</ul>
+<h3 id="civilization-39">Civilization 3.9</h3>
+<p>Utilization of black holes.</p>
+<ul>
+<li>About 1e19 stars are settled (tens of quintillions) or 1e6 galaxies (millions).</li>
+</ul>
+<h2 id="type-4-civilizations">Type 4 Civilizations</h2>
+<p>Civilizations of the universe scale.</p>
+<h3 id="civilization-40">Civilization 4.0</h3>
+<p>Temporal manipulations.</p>
+<ul>
+<li>About 1e20 stars are settled (hundreds of quintillions) or 1e7 galaxies (tens of millions).</li>
+</ul>
+<h3 id="civilization-41">Civilization 4.1</h3>
+<p>Expansion into the whole universe scale is available.</p>
+<ul>
+<li>About 1e21 stars are settled (sextillions) or 1e8 galaxies (hundreds of millions).</li>
+<li>This is on a scale of a great wall.</li>
+</ul>
+<h3 id="civilization-42">Civilization 4.2</h3>
+<p>Utilization of supermassive black holes.</p>
+<ul>
+<li>About 1e22 stars are settled (tens of sextillions) or 1e9 galaxies (billions).</li>
+</ul>
+<h3 id="civilization-43">Civilization 4.3</h3>
+<p>Folding space.</p>
+<ul>
+<li>About 1e23 stars are settled (hundreds of sextillions) or 1e10 galaxies (tens of billions).</li>
+</ul>
+<h3 id="civilization-44">Civilization 4.4</h3>
+<p>Improbability field.</p>
+<ul>
+<li>About 1e24 stars are settled (septillions) or 1e11 galaxies (hundreds of billions).</li>
+<li>This is on a scale of a whole visible universe.</li>
+<li>You may assume this level as being the maximum. Further levels are only nominally existing. Such huge universe that is required to support these civilizations is unlikely.</li>
+</ul>
+<h3 id="civilization-45">Civilization 4.5</h3>
+<ul>
+<li>About 1e25 stars are settled (tens of septillions) or 1e12 galaxies (trillions).</li>
+</ul>
+<h3 id="civilization-46">Civilization 4.6</h3>
+<ul>
+<li>About 1e26 stars are settled (hundreds of septillions) or 1e13 galaxies (tens of trillions).</li>
+</ul>
+<h3 id="civilization-47">Civilization 4.7</h3>
+<ul>
+<li>About 1e27 stars are settled (octillions) or 1e14 galaxies (hundreds of trillions).</li>
+</ul>
+<h3 id="civilization-48">Civilization 4.8</h3>
+<ul>
+<li>About 1e28 stars are settled (tens of octillions) or 1e15 galaxies (quadrillions).</li>
+</ul>
+<h3 id="civilization-49">Civilization 4.9</h3>
+<ul>
+<li>About 1e29 stars are settled (hundreds of octillions) or 1e16 galaxies (tens of quadrillions).</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

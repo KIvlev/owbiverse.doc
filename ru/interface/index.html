@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://owniverse.space/ru/interface/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Интерфейс - Owniverse</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Owniverse</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Русский <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../owniverse/" class="dropdown-item">Вселенная</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Интерфейс</a>
+</li>
+                                    
+<li>
+    <a href="../objects/" class="dropdown-item">Объекты</a>
+</li>
+                                    
+<li>
+    <a href="../gameplay/" class="dropdown-item">Игровой процесс</a>
+</li>
+                                    
+<li>
+    <a href="../life/" class="dropdown-item">Жизнь</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">English <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../en/owniverse/" class="dropdown-item">Вселенная</a>
+</li>
+                                    
+<li>
+    <a href="../../en/interface/" class="dropdown-item">Интерфейс</a>
+</li>
+                                    
+<li>
+    <a href="../../en/objects/" class="dropdown-item">Объекты</a>
+</li>
+                                    
+<li>
+    <a href="../../en/gameplay/" class="dropdown-item">Игровой процесс</a>
+</li>
+                                    
+<li>
+    <a href="../../en/life/" class="dropdown-item">Жизнь</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../owniverse/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../objects/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#_1" class="nav-link">Интерфейс</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#_2" class="nav-link">Приборная панель</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_6" class="nav-link">Индикаторы</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_13" class="nav-link">Объекты</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_19" class="nav-link">Информационная область</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="_1">Интерфейс</h1>
+<p>Игровой экран делится на три области: верхнюю, среднюю и нижнюю.</p>
+<h2 id="_2">Приборная панель</h2>
+<p>В <strong>верхней</strong> части экрана расположена <strong>приборная панель</strong>.</p>
+<h3 id="_3">Меню</h3>
+<p>Вызов главного меню по кнопке «<strong>≡</strong>». Из него можно создать новую вселенную, просмотреть полученные и доступнные достижения, сменить язык, настроить звук и музыку.</p>
+<h3 id="_4">Время</h3>
+<p>Игра идёт в реальном времени с изменяемым масштабированием. За одну секунду может пройти год, десять лет, век и так далее. Паузы нет. Выход из игры не останавливает время.</p>
+<p>Скорость течения времени меняется кнопками с цифрами в верхней части экрана. Цифра сообщает порядок лет, который будет проходить в секунду, когда вы нажмёте эту кнопку. Это фактически обычные кнопки «−» и «+», подписанные в зависимости от контекста.</p>
+<h3 id="_5">Помощь</h3>
+<p>Игровая помощь доступна по кнопке «<strong>?</strong>». Открывается страница, соответствующая выбранному объекту. Можно листать страницы помощи, проводя пальцем вбок.</p>
+<h2 id="_6">Индикаторы</h2>
+<p>Следующая часть приборной панели привязана к средней части экрана. На ней находится название текущей страницы с объектами и располагаются <strong>индикаторы</strong> тех показателей, которые особенно важны для этой страницы.</p>
+<h3 id="_7">Запас энергии</h3>
+<p>Вам доступен очень большой, но всё же ограниченный <strong>запас энергии</strong>. Его можно превращать в водород и пространство, необходимые для строительства вселенной. Чем меньше энергии остаётся в запасе, тем хуже работают механизмы превращения энергии. Однако, не думайте, что в ближайший миллиард лет нехватка энергии станет острой проблемой. Её действительно очень много.</p>
+<h3 id="_8">Плотность</h3>
+<p>Средняя <strong>плотность</strong> вселенной это отношение общей массы вещества, то есть всех звёзд, облаков и так далее, к пустому пространству. Она растёт вместе с массой и уменьшается с ростом пространства. Если индикатор «ρ» выйдет из «средней зоны» и склонится к одной из крайностей, то последствия могут вас неприятно удивить.</p>
+<h3 id="_9">Горючесть</h3>
+<p><strong>Горючесть</strong> показывает текущую скорость горения звёзд. На неё могут влиять плотность вселенной (чем больше, тем выше), действия цивилизаций и силы игрока. Высокая горючесть даёт больше пространства, но создаёт проблемы для развития жизни.</p>
+<h3 id="_10">Взрывчатость</h3>
+<p><strong>Взрывчатость</strong> показывает текущую вероятность гамма-всплесков и мощность взрыва при любом коллапсе звезды-гиганта. На неё могут влиять плотность вселенной (чем больше, тем ниже), действия сверхразвитых цивилизаций и силы игрока. Высокая взрывчатость даёт больше пространства и металлов, но негативно воздействует на жизнь.</p>
+<h3 id="_11">Агрессия</h3>
+<p><strong>Агрессия</strong> показывает интенсивность конкурентной борьбы между видами, цивилизациями и их внутренними фракциями. Она влияет на развитие и стабильность жизни и обществ. Изменяется под воздействием вселенских тенденций и сил игрока.<br />
+По умолчанию показывается средняя вселенская агрессия. Но можно выделить какой-либо цивилизационный уровень и увидеть среднюю агрессию именно для этого уровня.</p>
+<h3 id="_12">Тенденции</h3>
+<p><strong>Тенденциями</strong> называются результаты долговременных действий цивилизаций. Всего их пять.</p>
+<ul>
+<li><strong>Антитеизм:</strong> противопоставление воли людей высшей воле.</li>
+<li><strong>Интеграция:</strong> мирное сосуществование и объединение различных форм жизни.</li>
+<li><strong>Ксеноцид:</strong> истребление иных форм жизни.</li>
+<li><strong>Владение:</strong> перестройка вселенной для нужд цивилизации.</li>
+<li><strong>Духовность:</strong> понимание и принятие высшей воли.</li>
+</ul>
+<p>Когда суммарный вклад цивилизаций в тенденцию достигает максимума, происходит событие, несколько изменяющее вселенную.</p>
+<h2 id="_13">Объекты</h2>
+<p>В <strong>средней</strong>, самой большой части экрана, расположены пять страниц, между которыми можно переключаться, проводя пальцем вбок. На страницах размещены <strong>игровые объекты</strong>, подробнее о которых рассказано в соответствующем разделе. Выбрав объект, можно получить о нём основные сведения в нижней части экрана или прочитать помощь, доступную по кнопке «<strong>?</strong>».</p>
+<h3 id="_14">Силы</h3>
+<p>Многие события во вселенной случаются не всегда, а лишь с некоторой вероятностью. У вас есть доступ к особым <strong>силам</strong>, с помощью которых вы можете «подкручивать» вероятности интересующих вас событий, влияя на законы природы.</p>
+<ul>
+<li>Индикаторы отсутствуют. Вместо них на панели размещены четыре точки, в которых время от времени становятся доступны <strong>коробки с силами</strong>. Вы можете забрать их, просмотрев рекламу.</li>
+<li>В платной версии игры рекламу смотреть не нужно, просто забираете коробки и всё.</li>
+</ul>
+<h3 id="_15">Ресурсы</h3>
+<p>Четыре основных ресурса, из которых собирается вселенная.</p>
+<p>Также на этой странице расположен <strong>журнал</strong>, в котором отображаются последние события.</p>
+<ul>
+<li>Индикаторы: энергия и плотность. Наиболее глобальные показатели, описывающие вселенную в целом.</li>
+</ul>
+<h3 id="_16">Звёзды</h3>
+<p>На верхней строке вместо звёзд находятся облака. Далее расположены звёзды-карлики, звёзды-гиганты и вырожденные объекты.</p>
+<ul>
+<li>Индикаторы: горючесть и взрывчатость. Ключевые характеристики звёздных процессов.</li>
+</ul>
+<h3 id="_17">Структуры</h3>
+<p>Слева направо и сверху вниз структуры располагаются от меньшего к большему. На верхней строке это звёздные скопления, далее идут галактики, а на нижней расположены большие структуры вселенского масштаба.</p>
+<ul>
+<li>Индикаторы: энергия и плотность. Наиболее глобальные показатели, описывающие вселенную в целом.</li>
+</ul>
+<h3 id="_18">Жизнь</h3>
+<p>На верхней строке показаны планеты всех разновидностей. На второй строке перечислены все типы цивилизаций. Если нажать на любой из этих типов или на живую планету, то на одной или двух нижних строках раскроются отдельные уровни цивилизаций внутри данного типа или эоны эволюции для живых планет.</p>
+<ul>
+<li>Индикаторы: агрессия и тенденции. Агрессия наиболее явным образом влияет на жизнь, а тенденции показывают, как жизнь влияет на вселенную.</li>
+</ul>
+<h2 id="_19">Информационная область</h2>
+<p>В <strong>нижней</strong> части экрана размещена <strong>информационная область</strong>, куда выводятся данные по выделенному объекту.</p>
+<p>Многие объекты, такие как звёзды или галактики, можно создавать или собирать с помощью <strong>кнопок действий</strong> в самой нижней части экрана. Если при нажатии на объект кнопок вообще нет, то его нельзя создавать или собирать напрямую, он появляется каким-то иным образом. Если же кнопки есть, но на них нет чисел, то вам, скорее всего, не хватает каких-то ресурсов для создания или сборки объекта.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

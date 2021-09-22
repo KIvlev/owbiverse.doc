@@ -1,0 +1,36 @@
+site_name: Owniverse
+site_url: https://owniverse.space
+
+docs_dir: content
+site_dir: docs
+
+theme:
+    name: material
+    palette:
+        scheme: slate    
+
+extra:
+    alternate:
+
+        # Switch to Russian
+        - name: Русский
+          link: /ru/
+          lang: ru
+        # Switch to English
+        - name: English
+          link: /en/
+          lang: en
+
+nav:
+    - Русский:
+        - Вселенная: ru/owniverse.md
+        - Интерфейс: ru/interface.md
+        - Объекты: ru/objects.md
+        - Игровой процесс: ru/gameplay.md
+        - Жизнь: ru/life.md
+    - English:
+        - Owniverse: en/owniverse.md
+        - Interface: en/interface.md
+        - Objects: en/objects.md
+        - Gameplay: en/gameplay.md
+        - Life: en/life.md

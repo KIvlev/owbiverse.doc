@@ -1,576 +1,226 @@
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
-      
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
         <link rel="canonical" href="https://owniverse.space/en/life/">
-      
-      <link rel="icon" href="../../assets/icons/favicon-120x120.png">
-      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.8">
-    
-    
-      
+        <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Life - Owniverse</title>
-      
-    
-    
-      <link rel="stylesheet" href="../../assets/stylesheets/main.92558b1b.min.css">
-      
-        
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
-        
-      
-    
-    
-    
-      
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
-      
-    
-    
-    
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
-    
-    
-      
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link href="../../stylesheets/extra.css" rel="stylesheet">
 
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
 
-    
-    
-  </head>
-  
-  
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
-  
-    
-    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#planets-and-life" class="md-skip">
-          Skip to content
-        </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-      <header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Owniverse" class="md-header__button md-logo" aria-label="Owniverse" data-md-component="logo">
-      
-  <img src="../../assets/logo/logo-42x42.png" alt="logo">
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Owniverse</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            Owniverse
-          </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Life
-            
-          </span>
-        </div>
-      </div>
-    </div>
-    
-    
-      <div class="md-header__option">
-        <div class="md-select">
-          
-          <button class="md-header__button md-icon" aria-label="Select language">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
-          </button>
-          <div class="md-select__inner">
-            <ul class="md-select__list">
-              
-                <li class="md-select__item">
-                  <a href="/ru/" hreflang="ru" class="md-select__link">
-                    Русский
-                  </a>
-                </li>
-                
-                <li class="md-select__item">
-                  <a href="/en/" hreflang="en" class="md-select__link">
-                    English
-                  </a>
-                </li>
-                
-            </ul>
-          </div>
-        </div>
-      </div>
-    
-    
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-      </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    
-    
-  </nav>
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-
-  
-
-<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Owniverse" class="md-nav__button md-logo" aria-label="Owniverse" data-md-component="logo">
-      
-  <img src="../../assets/logo/logo-42x42.png" alt="logo">
-
-    </a>
-    Owniverse
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
-      
-      <label class="md-nav__link" for="__nav_1">
-        Русский
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Русский" data-md-level="1">
-        <label class="md-nav__title" for="__nav_1">
-          <span class="md-nav__icon md-icon"></span>
-          Русский
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/owniverse/" class="md-nav__link">
-        Вселенная
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/interface/" class="md-nav__link">
-        Интерфейс
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/objects/" class="md-nav__link">
-        Объекты
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/gameplay/" class="md-nav__link">
-        Игровой процесс
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/life/" class="md-nav__link">
-        Жизнь
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/privacy/" class="md-nav__link">
-        Конфиденциальность
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
-      
-      <label class="md-nav__link" for="__nav_2">
-        English
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="English" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
-          <span class="md-nav__icon md-icon"></span>
-          English
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../owniverse/" class="md-nav__link">
-        Owniverse
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../interface/" class="md-nav__link">
-        Interface
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../objects/" class="md-nav__link">
-        Objects
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../gameplay/" class="md-nav__link">
-        Gameplay
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Life
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Life
-      </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#planets" class="md-nav__link">
-    Planets
-  </a>
-  
-    <nav class="md-nav" aria-label="Planets">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#gas-giant" class="md-nav__link">
-    Gas Giant
-  </a>
-  
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Русский <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../ru/owniverse/" class="dropdown-item">Вселенная</a>
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#asteroid-belt" class="md-nav__link">
-    Asteroid Belt
-  </a>
-  
+                                    
+<li>
+    <a href="../../ru/interface/" class="dropdown-item">Интерфейс</a>
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#rocky-planet" class="md-nav__link">
-    Rocky Planet
-  </a>
-  
+                                    
+<li>
+    <a href="../../ru/objects/" class="dropdown-item">Объекты</a>
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#habitable-planet" class="md-nav__link">
-    Habitable Planet
-  </a>
-  
+                                    
+<li>
+    <a href="../../ru/gameplay/" class="dropdown-item">Игровой процесс</a>
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#living-planet" class="md-nav__link">
-    Living Planet
-  </a>
-  
+                                    
+<li>
+    <a href="../../ru/life/" class="dropdown-item">Жизнь</a>
 </li>
-        
-      </ul>
-    </nav>
-  
+                                    
+<li>
+    <a href="../../ru/privacy/" class="dropdown-item">Конфиденциальность</a>
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#eons" class="md-nav__link">
-    Eons
-  </a>
-  
-    <nav class="md-nav" aria-label="Eons">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#archean" class="md-nav__link">
-    Archean
-  </a>
-  
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">English <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../owniverse/" class="dropdown-item">Owniverse</a>
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#proterozoic" class="md-nav__link">
-    Proterozoic
-  </a>
-  
+                                    
+<li>
+    <a href="../interface/" class="dropdown-item">Interface</a>
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#paleozoic" class="md-nav__link">
-    Paleozoic
-  </a>
-  
+                                    
+<li>
+    <a href="../objects/" class="dropdown-item">Objects</a>
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#mezozoic" class="md-nav__link">
-    Mezozoic
-  </a>
-  
+                                    
+<li>
+    <a href="../gameplay/" class="dropdown-item">Gameplay</a>
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#cenozoic" class="md-nav__link">
-    Cenozoic
-  </a>
-  
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Life</a>
 </li>
-        
-      </ul>
-    </nav>
-  
+                                    
+<li>
+    <a href="../privacy/" class="dropdown-item">Privacy</a>
 </li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
+                                </ul>
+                            </li>
+                        </ul>
 
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../privacy/" class="md-nav__link">
-        Privacy
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../gameplay/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../privacy/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
                 </div>
-              </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
             
+            <li class="nav-item" data-level="1"><a href="#planets-and-life" class="nav-link">Planets and Life</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#planets" class="nav-link">Planets</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#eons" class="nav-link">Eons</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
             
-          
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
-                
-                
-                <h1 id="planets-and-life">Planets and Life</h1>
+            <li class="nav-item" data-level="1"><a href="#civilizations" class="nav-link">Civilizations</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#ethics" class="nav-link">Ethics</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#type-0-civilizations" class="nav-link">Type 0 Civilizations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#type-1-civilizations" class="nav-link">Type 1 Civilizations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#type-2-civilizations" class="nav-link">Type 2 Civilizations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#type-3-civilizations" class="nav-link">Type 3 Civilizations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#type-4-civilizations" class="nav-link">Type 4 Civilizations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="planets-and-life">Planets and Life</h1>
 <p>A lifeless universe is not as amusing as a living one. It is especially cute when its denizens try to seek truth, stay on the top of the world affairs and think high and mighty of themselves in general. However, in a certain sense this is actually their own universe.</p>
 <h2 id="planets">Planets</h2>
 <p><strong>Planets</strong> emerge around dwarf stars when metals are sufficient. In a sense all this space construction is being made with a purpose of making planets with potential of bearing life.</p>
 <h3 id="gas-giant">Gas Giant</h3>
 <p>Large planet with a very thick atmosphere, unsuitable for life.</p>
+<p>Water is one of the most common chemical compounds in the universe. Oxygen is abundant among the metals produced by stars, and hydrogen is always plentiful. At a certain distance from the star, water vapor, freely flying in space, cools down and condenses into snowflakes and ice floes. The border beyond which this occurs is called the snow line.</p>
+<p>Planets that form behind the snow line are usually much larger than those closer to the sun. In the early stages of formation, thanks to the significant addition of snow and ice, they quickly gain mass and attract more and more matter. Their gravity is sufficient to keep in the atmosphere not just relatively heavier and slow molecules of gaseous substances like nitrogen, oxygen and water vapor, but also lighter and faster pure hydrogen and helium. And, as you might guess, these two are the most common materials in the universe. So it turns out that they grow to incredible sizes when compared with rocky planets that are closer to their suns. Although they are still much smaller and lighter than not only full-fledged stars, but also brown dwarfs.</p>
+<p>Quite often gas giants, as a result of various local processes, relocate themselves to nearer orbits around their luminaries, finding themselves inside the snow line. Many of them even occupy the position closest to the star, warming up and gradually losing the atmosphere accumulated at the stage of formation, blown off by the solar wind into deep space.</p>
 <h3 id="asteroid-belt">Asteroid Belt</h3>
 <p>A bunch of rocks that lack a mass to form a planet.</p>
+<p>It happens so that there is not enough substance in a certain area to assemble the planet. Sometimes it also happens that one planet crashes into another. Their cores merge into a greater planet, but some of the fragments are scattered wherever. Belts and other clusters of asteroids can have different origins, often very dramatic and interesting. But on the scale of the universe at large and even for just one star system, asteroids basically are just litter.</p>
+<p>Civilizations that have entered into their local space and begin to master their native system are often very interested in asteroids. Their substance is the easiest to use for the construction of space objects, since it does not need to be lifted from the planets – it is already “above”.</p>
 <h3 id="rocky-planet">Rocky Planet</h3>
 <p>A planet unsuitable for life. Too cold, too hot or wrong chemical makeup.</p>
+<p>If the circumstances were a little different, there could be conditions for the emergence of life on this planet. But something went wrong. Sometimes rocky planets are either too close to the star, or too far from it. In both cases, liquid water cannot exist on their surface, and it is almost a requirement for life.</p>
+<p>Some rocky planets may orbit their star at a fitting distance, but simply do not have enough water. Or their chemical composition may be incompatible with complex organics. For the formation of life, many different factors must successfully coincide, and a lack of just one item can lead to the complete unsuitability of the entire event.</p>
 <h3 id="habitable-planet">Habitable Planet</h3>
 <p>There is liquid water here and life may emerge in the long run.</p>
+<p>Average temperature, presence of water, not too aggressive chemical composition, moderately dense atmosphere, tectonic activity and much more on the list. By the way, there is no guarantee that even if all these conditions are met, life will eventually emerge on this piece of rock. But if you're not in luck right now, then you'll be next time! Feel free to create more of these planets.</p>
+<p>Warning: supernovae explosions and gamma-ray bursts can sterilize planets, transforming them from potentially habitable and even living ones into barren chunks of rock. However, if you are not worried about this, then no one is going to make you.</p>
 <h3 id="living-planet">Living Planet</h3>
-<p>Denizens of this planet show great promise!</p>
+<p>Yay, lucky! Denizens of this planet show great promise!</p>
 <h2 id="eons">Eons</h2>
-<p>Life advances from simpler to complex forms. The successful biological evolution is completed when the true sapience appears. Because soon after that the sapience takes matter into its own hands.</p>
+<p>Life on planets goes through five long stages of biological evolution, called aeons. It doesn’t take a lot of time to form the simplest life, but it will take a while to develop it into something more interesting. If it looks like nothing is happening, then probably it just seems so. Hard to see from above.</p>
+<p>The path of life transformation can be directed both towards development and towards degradation. An asteroid may collapse on a planet with promising inhabitants. A biochemical catastrophe, such as air pollution by waste products, as happened with cyanobacteria, can destroy not just the vast majority of the population, but basically everyone in general. There is no doubt about the possibility of technogenic civilization to roll back to the Stone Age at the touch of a button.</p>
 <h3 id="archean">Archean</h3>
 <p>It is difficult to notice, but these planets are full of archaea and cyanobacteria.</p>
+<p>Primitive single-cell creatures. Modern mold, compared to them, is incredibly complex and perfect. But you have to start somewhere.</p>
+<p>Most of the worlds on which life was formed remain at this stage. For the transition to the next phase of development, a number of specific qualities are required. These qualities appear as a result of random mutations, which most often simply do not occur.</p>
 <h3 id="proterozoic">Proterozoic</h3>
 <p>Alongside ubiquitous amoeba these planets host algae, sponges and even molluscs.</p>
+<p>Many life forms have become multicellular. Such an organization provides a lot of advantages and allows you to solve seemingly incomprehensibly difficult tasks, such as crawling on land or having special organs for the perception of light.</p>
+<p>Life that developed up to Proterozoic is likely to be able to evolve further. Such a biosphere is already stable enough not to die out from its own shenanigans. But it is in no way immune to events such as transformation of its native star into a red giant, a nearby supernova outbreak or a collision with an asteroid. This is also true for much more advanced life forms, but not for all of them.</p>
 <h3 id="paleozoic">Paleozoic</h3>
 <p>Ferns, worms, trilobites and fishes.</p>
+<p>Some varieties of creatures formed in this age will continue their development, evolving into even more complex forms, including those very unlike their ancestors. Someone will remain approximately what it is, if the environment in its niche will not change much. Many will be unlucky, their offspring lines will not be competitive enough and eventually they will die out.</p>
+<p>Unfortunately, nature knows no other ways of developing life to higher forms. It is impossible to assemble them all manually, right?</p>
 <h3 id="mezozoic">Mezozoic</h3>
 <p>Conifers, lizards, dinosaurs and therapsids.</p>
+<p>Epic era of giant reptiles. There is something to brag about! Looking at the fauna of the Mesozoic, it is difficult to believe that the most promising are not the undisputed rulers of all things, dinosaurs, but modest creatures similar to mice.</p>
+<p>By the way, dinosaurs are not obliged to die out as thoroughly as happened on Earth. In addition to ostriches and cassowaries, who are very similar to the classic appearance of a dinosaur, hypothetically, other large reptiles could have survived, also becoming birds. Not all evolving planets have to complete the Mesozoic age by being hit with an impressive asteroid that destroys most of life. On the other hand, it is quite possible that it was thanks to this disaster that little mice had a chance to become human.</p>
 <h3 id="cenozoic">Cenozoic</h3>
 <p>Flowering plants and various mammals, some of which show signs of sapience.</p>
+<p>Primates, that is, the most mentally developed of all animals, can emerge not only from monkeys. Raccoons, bears and some birds are famous for their outstanding mental abilities, and on other planets everything can turn out quite differently.</p>
+<p>To evolve towards the emergence of intelligence, an animal needs the following properties: brains that are decent enough by local standards, the ability to use limbs like hands, a complex and varied life full of adventures and problems that require an extraordinary approach. Those who manage to find the ideal niche fit into it and remain animals, gradually losing their intellectual potential.</p>
+<p>Others reach to where no one expects them, overcome any obstacles and master new opportunities. The brain is useful for such activity, as an organ that is capable of indirectly solving any problem. A person runs slower than a cheetah, but with the help of his brain he can change the conditions of the environment so that he does not need to run so often. And later he will invent a car.</p>
 <h1 id="civilizations">Civilizations</h1>
 <p>Civilizations belong to different <strong>types</strong>, from 0 to 4. Inside types there is decimal divisions into <strong>levels</strong>, for example from 0.1 to 0.9 with the next step to 1.0. Level always is shown alongside its type, for example 1.2.</p>
 <p>Everything is included into the level, starting from adoption of technologies and finishing with exploited space. Difference in one level means that the more advanced civilization has about <strong>tenfold</strong> advantage over a less developed one.</p>
@@ -581,311 +231,395 @@
 <p><strong>Mystics</strong> deeply believe in the supernatural. They think that their lives are governed by a higher power. With regard to the circumstances, they are not really wrong about that.</p>
 <p>Cultures of the mystics are based on ancient traditions. Their conservative leanings keep society stable, but cramp the adoption of new ideas and technologies. Don't assume that mystic societies are completely backward. Only relatively so.</p>
 <p>Mystics aim the significant part of their efforts to the admiration of a higher power. This increases the efficiency of the primary resources generators, such as clouds and stars.</p>
+<h3 id="building">Building</h3>
+<p><strong>Builders</strong> dig not wide but deep. They are accustomed to making the most of what they have, and only then to go to the next source. Civilizations of builders are spread on relatively modest territory, but compared to their high cities everything else looks like backward villages.</p>
+<p>Culture of the builders does not allow for senseless squander, but they are not ascetic by any means. On the contrary, because of the extremely well-oiled economy, societies of the builders are extremely stable and quite pleasant to live in.</p>
+<p>Emigration, leaving home in search for the better chance in the unknown, seems like a wasteful and foreign concept for the builders.</p>
+<h3 id="diplomacy">Diplomacy</h3>
+<p><strong>Diplomats</strong> hope to live in peace and harmony with all their space neighbors. They make diplomatic contacts, constantly try to create stellar leagues, communities and organizations, based on principles of mutual trust and respect.</p>
+<p>They use military actions only when all the other possibilities have been tried and did not provide adequate results, and also when it is no longer possible to sit it out.</p>
+<p>While they are open to everything new, their attention is focused away from the most practical aspects of reality. This slows progress somewhat.</p>
 <h3 id="logic">Logic</h3>
-<p><strong>Logics</strong> aspire to understand the world from the scientific point of view. They defy obscurant ideas of their backward kinsmen and do not require the hypothesis of supernatural forces to function normally.</p>
+<p><strong>Logicians</strong> aspire to understand the world from the scientific point of view. They defy obscurant ideas of their backward kinsmen and do not require the hypothesis of supernatural forces to function normally.</p>
 <p>Critical thinking of logics somewhat shackles your capabilities. It decreases the efficiency of the primary resources generators, such as clouds and stars.</p>
 <p>Primary pursuit of the logics is the progress. All else being equal they advance faster than any other culture. Unfortunately because of their inclination to risky experiments their societies are not as stable as they would like to think.</p>
+<h3 id="colonization">Colonization</h3>
+<p><strong>Colonists</strong> take the colossal size of unclaimed cosmic expanse as a challenge. They are annoyed by empty territories without management, this is why they always try to make claims whenever it is possible.</p>
+<p>Liberty-loving societies of colonists are not very stable. Citizens have this habit to solve any conflicts and problems by emigration. In these circumstances it is difficult to make long lasting plans.</p>
+<p>Colonists themselves are pretty peaceful. But their approach on taking everything that seems not to be nailed down often provokes neighbors to rash measures, followed by escalation.</p>
 <h3 id="bellicosity">Bellicosity</h3>
 <p><strong>Warriors</strong> perceive the universe with cold grim determination. They do not trust aliens and do not wish to wait for them to be first to strike, thinking of the inevitable conflict in the terms of “when”, not ”if”.</p>
 <p>Not always warriors are going for the total destruction of alien life forms. Often they are content with being the most powerful, feeling safe enough. Unfortunately, things happen.</p>
 <p>The main purpose of existence for warriors is war. They highly doubt the efficiency of diplomatic measures.</p>
-<h3 id="friendliness">Friendliness</h3>
-<p><strong>Friends</strong> hope to live in peace and harmony with all their space neighbors. They make diplomatic contacts, constantly try to create stellar leagues, communities and organizations, based on principles of mutual trust and respect.</p>
-<p>They use military actions only when all the other possibilities have been tried and did not provide adequate results, and also when it is no longer possible to sit it out.</p>
-<p>While they are open to everything new, their attention is focused away from the most practical aspects of reality. This slows progress somewhat.</p>
-<h3 id="expansion">Expansion</h3>
-<p><strong>Settlers</strong> take the colossal size of unclaimed cosmic expanse as a challenge. They are annoyed by empty territories without management, this is why they always try to make claims whenever it is possible.</p>
-<p>Liberty-loving societies of settlers are not very stable. Citizens have this habit to solve any conflicts and problems by emigration. In these circumstances it is difficult to make long lasting plans.</p>
-<p>Settlers themselves are pretty peaceful. But their approach on taking everything that seems not to be nailed down often provokes neighbors to rash measures, followed by escalation.</p>
-<h3 id="construction">Construction</h3>
-<p><strong>Builders</strong> dig not wide but deep. They are accustomed to making the most of what they have, and only then to go to the next source. Civilizations of builders are spread on relatively modest territory, but compared to their high cities everything else looks like backward villages.</p>
-<p>Culture of the builders does not allow for senseless squander, but they are not ascetic by any means. On the contrary, because of the extremely well-oiled economy, societies of the builders are extremely stable and quite pleasant to live in.</p>
-<p>Emigration, leaving home in search for the better chance in the unknown, seems like a wasteful and foreign concept for the builders.</p>
 <h2 id="type-0-civilizations">Type 0 Civilizations</h2>
 <p>Pre-space epoch – from a tribe to a federation.</p>
+<p>If life was able to evolve to a sapient state, then it can no longer be stopped. Evolution changes from biological to cultural and accelerates many times over. With the advent of intelligence, decrease of time speed may become a good idea. Otherwise you might miss everything!</p>
 <h3 id="civilization-00">Civilization 0.0</h3>
 <p>Lower Paleolithic. Control of fire, stone tools.</p>
+<p>Small scattered tribes of hunter-gatherers. Wildlife is a serious problem. Articulate speech appeared quite recently, but this was the main innovation almost since the days of the cell nucleus.</p>
 <h3 id="civilization-01">Civilization 0.1</h3>
 <p>Middle Paleolithic. Developed stone tools.</p>
+<p>Hunter-gatherers still hunt and gather, but they feel much more confident in the process. Life expectancy rises to an impressive 30 years, which is a significant improvement over previous results.</p>
 <h3 id="civilization-02">Civilization 0.2</h3>
 <p>Upper Paleolithic. Advanced stone tools, art.</p>
+<p>Long-term settlements appear in well-suited regions. Small tribes aggregate into larger chiefdoms. The primitive community, in which everyone is equal, begins to show the first signs of a class society.</p>
+<p>Up to this level, all civilizations were concerned only with survival, therefore they were very similar to each other. Now their paths diverge, manifesting in the form of ethics.</p>
 <h3 id="civilization-03">Civilization 0.3</h3>
 <p>Mesolithic. Bow and arrows, fishing, boats.</p>
+<p>Settlements are spreading all over the place. Chiefdoms sometimes form confederations and tribal alliances. A complex politics emerges, which is significantly different from the previously adopted “those not with us are food.”</p>
 <h3 id="civilization-04">Civilization 0.4</h3>
 <p>Early Neolithic. Agriculture.</p>
+<p>The life of a hunter-gatherer is, on average, easier and more carefree than that of a farmer. But the latter has more chances of its daily continuation. Digging into the ground, growing grains and vegetables, is quite tedious, but it provides a guaranteed source of food for every day.</p>
 <h3 id="civilization-05">Civilization 0.5</h3>
 <p>Middle Neolithic. Animal husbandry, ceramics.</p>
+<p>The development of agriculture leads to the growth of settlements, as well as to the allocation of an increasing number of specialists, who are primarily employed not in the food production, but in some kind of socially useful craft. The presence of experienced artisans makes it possible to significantly complicate production processes, which spurs the further development of the economy.</p>
 <h3 id="civilization-06">Civilization 0.6</h3>
 <p>Late Neolithic. Large settlements.</p>
+<p>The pinnacle of Stone Age development. For this civilization, there is nothing surprising in the presence of cities. They build impressive temples and observatories, know how to construct bridges and pave roads. They cannot be called savages in any way, even if their behavior seems eccentric.</p>
 <h3 id="civilization-07">Civilization 0.7</h3>
 <p>First kingdoms of copper and bronze ages. Wheel.</p>
+<p>In previous times, the power of specific people rarely extended beyond the city and its environs, although there were exceptions. In this era everybody who is powerful enough engages into the creation of kingdoms and empires, seizing territories from each other, especially when monarchs and generations change. Simultaneously with military actions, peaceful interactions are developing, trade routes are being laid. The exchange of goods from different parts of the world once again spurs development.</p>
+<p>Nobody remembers primitive equality any more. Slavery is gradually becoming the default economic basis. By the standards of the era, it is a very progressive and humane invention. Before its introduction, instead of being forced into labor, after some years of which they could often be adopted into the family, prisoners of war were simply killed on spot without further ado.</p>
 <h3 id="civilization-08">Civilization 0.8</h3>
 <p>Ancient empires of the iron age. Philosophy.</p>
+<p>Society is undergoing rapid change. Individual cities basically lose their freedom, large and rather stable states appear on the world map from now on and for a very long time. Slavery is reaching its climax. Over-exploitation of huge armies of slaves allows empires to build previously unheard-of structures, to maintain a centralized economy at the highest level.</p>
+<p>Over time, the population density increases, and empires grow to the limits of their control. Some of them disintegrate, while others are reorganized. In any case, slavery ceases to be the basis of the economy, it is replaced by serfdom. It turns out to be much more profitable to grant freedom to a slave, along with a piece of land, which he will be obliged to cultivate, feeding himself and the master. Philosophy tries to be useful and confirms that this way is better.</p>
 <h3 id="civilization-09">Civilization 0.9</h3>
 <p>Industrial age. Electronics and nuclear energy.</p>
+<p>These civilizations are undergoing unprecedented rapid development. This has literally never happened before. For some miserable few centuries after the abolition of slavery, a whole era of feudalism has passed with accompanying knights, castles and wars for a variety of far-fetched reasons. It is replaced by the most progressive bourgeois epoch at the time of its introduction, which formally abolishes the estates and, in words, equalizes people.</p>
+<p>An industrial revolution is taking place. Craftsmen are replaced by manufactories, and machines and conveyors are introduced there. Mass production. Deep development of science. Gunpowder. Aircraft. Steam engine. Nuclear fusion. Sailships capable of traveling around the world. Global information network. Rockets and satellites. All these phenomena occur so quickly that it is difficult to keep track of what appears earlier and what comes later.</p>
 <h2 id="type-1-civilizations">Type 1 Civilizations</h2>
 <p>Civilizations that are busy with mastering their own solar system.</p>
+<p>Intelligence overcomes the attraction of the home planet. The task that the civilizations of this group are solving is the development of their star system as a preparation for overcoming the seemingly endless space to neighboring stars.</p>
+<p>In parallel with the development of science and technology, incredibly rushed forward over the last thousand years or so, space civilizations must pull themselves up culturally, reaching a new level of consciousness. This is necessary because every captain of a spaceship with a powerful nuclear engine and every president of a superpower state capable of destroying billions of people with one order, in a biological sense and in the depths of their souls, are still the same animals that have recently, by historical standards, raised their heads above their Cenozoic relatives.</p>
 <h3 id="civilization-10">Civilization 1.0</h3>
 <p>Civilization which has completely mastered its home planet. Superconductivity, controlled nuclear fusion.</p>
+<p>The dream about the cosmos as an endless space for travelers to explore, was shattered into nothingness by the endlessness of this space. The universe is far too huge and empty, and interstellar flights require fantastic technologies, unattainable energy levels, or they continue for longer than not only the life of an individual, but the entire history of civilization, starting from the first settlements.</p>
+<p>Nevertheless, since sapients have already gone into space, they cannot return home empty-handed. Even in their native solar system, there can be a lot of interesting or even useful stuff.</p>
+<p>The main problem for civilization at this stage is itself. Sovereign states with their own interests, incompatible economic models and religious cults have not gone anywhere. Certains stages of space exploration are carried out jointly. But if a strong country or even a powerful corporation thinks that it can achieve something on its own, then it does just that.</p>
 <h3 id="civilization-11">Civilization 1.1</h3>
 <p>Scientific bases on the other bodies of the home system. Launch loop, space elevator.</p>
+<p>Science is the first to seek space. Early orbiting telescopes were launched a long time ago, and a variety of experiments have been and continue to be carried out in cramped space stations. Some of them even turn out to be useful.</p>
+<p>The first really big step for science is the construction of an astronomy town on one of the bodies of their solar system that lacks atmosphere. Most likely it is the moon orbiting their home planet. All mining and construction work is carried out using robots and telemetry, and this alone is taking industrial capabilities to a new level.</p>
+<p>As soon as it becomes completely clear that it is necessary to fly into space on a constant basis, and that includes transportation of massive cargoes back and forth, the opportunity is immediately found to organize the construction of a launch loop or a space elevator. These imposing structures are being assembled using materials produced in small orbiting factories.</p>
 <h3 id="civilization-12">Civilization 1.2</h3>
 <p>Complete genetic tailoring. Cyborgization.</p>
+<p>The loud headlines “scientists yet again completely deciphered the genetic code for the first time” have already bored everyone for a while. But this time it is true – a complete model of genetics has been compiled, which gives accurate predictions about how exactly any gene will manifest itself in any conditions.</p>
+<p>It has become possible to assemble organisms, including offspring of sapients themselves, with specified properties. Genetic diseases have been eradicated. All are born perfectly healthy and have such a phenotype that seems optimal to their parents, and we are talking not only about the color of the eyes, but also about the number of limbs. Racial prejudices explode at first and then disappear completely due to the ridiculousness of the concept.</p>
+<p>In parallel with the improvement of genetics, cyborgization has reached a new level. What cannot be improved with genes can be changed with it. Yes, genetically programming a fetus so that it grows a jetpack is not possible. But to build it into the back of an adult in such a way that it folds into a compact hump and practically does not interfere – no problem. And there are always willing ones.</p>
 <h3 id="civilization-13">Civilization 1.3</h3>
 <p>Industrial asteroid mining. Colonies on the other planets of the home system.</p>
+<p>Heavy industry follows science into space. Experiments on the extraction of minerals from asteroids have been carried out almost since the very beginning of the space age, but only now this activity is becoming economically feasible.</p>
+<p>It is no less important that the dream of many generations is finally coming true – there is an opportunity to live on other planets in the native system. Sure, it was possible to fly there and even back for a while. In some places, more or less permanent outposts were even maintained, set up primarily for ostentatious and secondly for scientific purposes. Now, intelligent beings with updated genetics and cybernetic improvements, armed with the power of the planetary and space industries can very comfortably settle barren planets and live there in artificial biospheres, hoping that someday they will be able to turn these places into lush gardens.</p>
 <h3 id="civilization-14">Civilization 1.4</h3>
 <p>Harvesting of matter from the atmosphere of the gas giants.</p>
+<p>The primary source of energy at the beginning and middle of the space age are controlled thermonuclear fusion reactions. They are best done with rare isotopes, which require filtering huge volumes of ordinary hydrogen and helium to find them.</p>
+<p>Fortunately, in the majority of star systems there are ample sources of light gases, which can be approached closely without fear of burning out. These are gas giants, in orbits around which hydrogen rigs are erected at the earliest opportunity, and purification foundries are built on satellites.</p>
+<p>Thus, the problem of fusion fuel, and of a rocket propellant for spaceships, has been solved for many years to come.</p>
 <h3 id="civilization-15">Civilization 1.5</h3>
 <p>Space cities. Picotechnologies: manipulations on individual atoms.</p>
+<p>Long-term space settlements of the early eras look laughable compared to the huge orbital cities that gradually fill the star system. The first of them were created as industrial centers for the processing of minerals and gases, and also for the large-scale construction of spacecraft. Later, many simply realized that living in space is convenient.</p>
+<p>The concept of “nanotechnology” has not been used in everyday speech for a long time. It's just “technology” now. The products of manipulating matter at the level of individual molecules are as familiar as a hammer or an internal combustion engine. Now the accuracy of methods and tools is increasing even higher. Controlling individual atoms allows the creation of chemically impossible compounds with fantastic properties.</p>
 <h3 id="civilization-16">Civilization 1.6</h3>
 <p>Industrial manufacturing of antimatter. First starships.</p>
+<p>The development of space infrastructure allows the construction of huge industrial colliders. They are specially tailored not for scientific research, which manages fine in its own way, but for the mass production of antimatter, which is increasingly necessary in various areas of life.</p>
+<p>The most obvious application of antimatter, now extracted literally in tons, is the creation of an engine capable of reaching the nearest star within a relatively reasonable time frame. This civilization can build a ship of generations. The great-grandchildren of the crew have every chance to see the new sun with their own eyes. Not everyone likes the idea, but it always has its enjoyers.</p>
 <h3 id="civilization-17">Civilization 1.7</h3>
 <p>Terraforming. Gamma-lasers.</p>
+<p>The shocks that are associated with the transition from a planetary to a space civilization do not have the best effect on the home planet. Fortunately, with such a developed space industry, it becomes more than possible to deal with environmental, climatic and any other damage.</p>
+<p>In the process of “repair” it is revealed that at the same time it is possible to get rid of senseless deserts, tundra, overly high mountains and basically everything that seems unnecessary to contemporaries. Smaller sections of various biomes are saved for sentimental reasons, and the rest is optimized. Similar processes can be attempted on other planets of the native system if they reside inside the habitable zone.</p>
+<p>Gamma lasers, that is, devices of coherent ultrahard radiation, are valuable tools and powerful weapons in their own right. But in the long term it turns out that even more valuable are certain engineering innovations created in the process of their development. The ability to perfectly reflect and focus gamma rays opens up a whole new twist of old-fashioned solar panels.</p>
 <h3 id="civilization-18">Civilization 1.8</h3>
 <p>Space stations of continental scale.</p>
+<p>Space cities are no longer surprising. Conglomerates and even individual stations with a diameter of several hundred kilometers are becoming quite common. Even in linear dimensions, they are comparable to small moons, and if we compare their useful area, then it can even surpass the surface of the home planet.</p>
+<p>Nevertheless, most of the intelligent beings still live on their home planet and other natural bodies of the system. Force of habit, with the addition of optimization of their own bodies on the one hand and terraforming on the other – they feel too good there and lack reasons to leave.</p>
 <h3 id="civilization-19">Civilization 1.9</h3>
 <p>Partial Dyson swarm.</p>
+<p>Somehow imperceptibly, the cosmic civilization approached the natural result of its development. Huge space cities and continents, thousands of spaceships – all of this successfully works on thermonuclear fusion engines, burning hydrogen, which is massively collected from the gas giants. But it is impossible to completely ignore the largest, most stable and absolutely free fusion reactor – their own sun.</p>
+<p>Mass construction of power stations with solar panels manufactured with the new technological approaches begins. At first there are only thousands of stations, then there are millions and even billions. They primarily power the plants producing the stations themselves, as well as all the industry and infrastructure necessary for the process. This leads to exponential growth.</p>
+<p>Civilization has never received such an amount of energy at its disposal. If it manages to curb not only the sun, but also its own nature, then it will be able to reach the stars. If not, then perhaps someday alien archaeologists will be able to study it.</p>
 <h2 id="type-2-civilizations">Type 2 Civilizations</h2>
 <p>Civilizations that can expand to other stars.</p>
+<p>Having completely united the disparate states, sovereign corporations and other similar entities into a single conglomerate, the majority of whose members primarily recognize themselves as part of it, the civilization is ready to act at the stellar level.</p>
+<p>Scientific, technical and engineering progresses are just as important. Billions of satellites revolve around the native star, collecting free solar energy. The population of the system is measured in trillions, many of whom dwell in space. The home planet for the most part has been turned into a giant city, but some of its parts, on the contrary, are mothballed as reserves. Giant starships, powered by new antimatter thrusters, are ready to head for nearby stars. This is no longer a timid colonization performed by generation ships, but the direct spread of central power from the metropolis, which leads to the creation of an interstellar state.</p>
 <h3 id="civilization-20">Civilization 2.0</h3>
 <p>Civilization that completely exploits the energy output of its own sun.</p>
 <ul>
 <li>About 1 star is settled (handful).</li>
 </ul>
+<p>The sun has long been the primary source of energy for civilizations. At this level, its power is fully mastered. The combination of previously made inventions with huge amounts of energy allows interstellar flights to be made in a reasonable time frame. An important component of its reasonableness is a set of technologies that significantly extend the life span.</p>
+<p>The new starships do not resemble humble lonely generation ships of old, which were used for the first attempts to deliver descendants to new worlds. An armada of tens and hundreds of thousands of ships is sent to each new star. Size of the largest of these vessels is on the scale of a continent. On their way fleets encounter various objects, such as wandering planets and large comets. Some of these are considered worthy of being captured and exploited. Communication with the homeland is constantly maintained, permanent routes are being laid. The fastest ships immediately start scurrying back and forth as the core of the fleet moves towards its target. Settling a new star is like stretching out a tentacle, tying it to civilization.</p>
+<p>In the new system, the construction of an adequate source of energy immediately begins, that is, at least a partial Dyson swarm. Some of the materials can be brought with the fleet, but the majority of bulk is collected from available asteroids and planets orbiting the new star.</p>
 <h3 id="civilization-21">Civilization 2.1</h3>
 <p>Change of planetary orbits.</p>
 <ul>
 <li>About 10 stars are settled (tens).</li>
 </ul>
+<p>A civilization is considered to be truly interstellar when its provinces are capable of independently building flotillas of resettlement. In this case, even the loss of a native star does not lead to total collapse.</p>
+<p>Not all stars have planets on which it is possible to live comfortably. And some sapients still want to. Fortunately, quite often in new star systems one can find overheated or supercooled planets, or maybe even satellites of gas giants. A sufficiently developed civilization is able to tow these to the habitable zone.</p>
+<p>However, settling on the surface of planets attracts less and less immigrants from new generations. Nevertheless, the capability to drag planets to the construction area of ​​the Dyson swarm or some giant space dwelling is difficult to overestimate.</p>
 <h3 id="civilization-22">Civilization 2.2</h3>
 <p>Control over inertia.</p>
 <ul>
 <li>About 100 stars are settled (hundreds).</li>
 </ul>
+<p>The property of inertia imposes serious restrictions on the magnitude of the acceleration and deceleration of spacecraft. There is no point in accelerating the ship to the available speeds as quickly as possible, because with a sufficiently sharp acceleration or deceleration, the overloads will turn out to be intolerable, first for living beings, and then for electronics.</p>
+<p>Now, maneuvers that previously seemed the delirium of a madman are becoming possible. The same can be said for the space vessels themselves. It is still reasonable to build massive starships around a powerful engine. They do not diverge away from the practical shape of huge cylindrical-conical missiles. But some models of small ships for interplanetary flights are now being built as “flying saucers”. At first it looks like a silly exotic, but then everyone somehow gets used to it.</p>
 <h3 id="civilization-23">Civilization 2.3</h3>
 <p>Starlifting, harvesting matter from stars.</p>
 <ul>
 <li>About 1000 stars are settled (thousands).</li>
 <li>This is on the scale of a scattered star cluster.</li>
 </ul>
+<p>The theory of harvesting matter from stars was developed a long time ago. There were attempts at its smaller practical applications even during the construction of the first Dyson swarms. However, there were too many engineering difficulties. It turned out easier to follow the old fashioned way, sawing asteroids and planets for all construction needs.</p>
+<p>Gradually, all these engineering difficulties were resolved. Around small and maximally stable stars, in addition to the already familiar solar panels, starlifting complexes are being erected to suck out hydrogen and helium. With the help of good old thermonuclear fusion reactions, any element can be synthesized from these substances, and their volumes inside the stars are several orders of magnitude greater than anything that can be collected from planets and asteroids.</p>
+<p>The stars from which matter is collected are slowly losing mass. Internal gravity weakens, the temperature decreases, fusion reactions become less violent and the duration of the existence of such a star increases. For the inhabitants of the system, this is a pleasant side effect. If it gets too cold, you can always move the planets closer.</p>
 <h3 id="civilization-24">Civilization 2.4</h3>
 <p>Femtotechnologies: manipulations on individual fermions.</p>
 <ul>
 <li>About 1e4 stars are settled (tens of thousands).</li>
 <li>This is on the scale of a small star cluster.</li>
 </ul>
+<p>Advanced stellar civilizations are usually associated with something huge. But even very small things do not escape the attention of their scientists. Controlling matter at the level of individual particles allows you to bypass the laws of chemistry and even physics, which previously seemed insurmountable. Society is once again unprecedentedly transformed in comparison with the previous era. This is the same technology that for less evolved creatures is indistinguishable from magic.</p>
+<p>For a long time nobody seriously remembered about such things as energy shields or force fields, referring to them as non-scientific fiction. But with the advent of femtotechnologies, similar, as well as many other fabulous effects are rapidly breaking into everyday reality.</p>
 <h3 id="civilization-25">Civilization 2.5</h3>
 <p>Deconstruction and creation of planets.</p>
 <ul>
 <li>About 1e5 stars are settled (hundreds of thousands).</li>
 <li>This is on the scale of a medium star cluster.</li>
 </ul>
+<p>For a while there is nothing surprising in gradually disassembling a planet, letting its substance into millions of orbital habitats and starships. This process stretches for a long time, and with the introduction of the starlifting, it has largely lost its relevance. Now, thanks to the use of previously unavailable methods of influencing reality, such as astro-engineering forcefield cutters, it is possible to slice the planet into convenient bricks in a few months, or even weeks.</p>
+<p>Moreover, if earlier architectural and engineering projects were supposed to remain within reasonable limits and be practical at least on a planetary scale, now ideas that go beyond madness in their extravagance are perceived as a bold and extraordinary stylistic solution. The creation of new planets is in vogue, no matter how wasteful in terms of material consumption it may be.</p>
 <h3 id="civilization-26">Civilization 2.6</h3>
-<p>Complete domination of astroarchitecture over planets.</p>
+<p>Astroarchitectural dominant.</p>
 <ul>
 <li>About 1e6 stars are settled (millions).</li>
 <li>This is on the scale of a large star cluster.</li>
 </ul>
+<p>Social life in such advanced civilizations, in a sense, falls asleep. Every conceivable basic need has long been met at some incredible level. This leads to the fact that many ordinary residents lose interest in whatever is happening and go into recluse into their perfected worlds on artificial planets, no more influencing the universe whatsoever.</p>
+<p>But there are those who continue to move forward. Often they are no longer similar to more conservative “default” creatures of their biological species, neither externally nor in essence. And now civilization rather belongs to them, which suits absolutely everyone. These new beings do not view the planets as something of significance. They dwell on giant starships, the majority of the material for the construction of which is collected directly from the stars. The development of new star systems is already going on without looking back at the planets.</p>
 <h3 id="civilization-27">Civilization 2.7</h3>
 <p>Giant stars resources exploitation.</p>
 <ul>
 <li>About 1e7 stars are settled (tens of millions).</li>
 <li>This is on the scale of a giant star cluster.</li>
 </ul>
+<p>Previous civilizations avoided giant stars. They are too hot, they have too much gravity and a number of other disadvantages. Over time, all the problems associated with the hypothetical exploration of these stars were basically resolved. One giant star contains more matter than dozens of dwarf stars. It produces an incredible amount of energy, while glowing orders of magnitude brighter. And now all this energy can be caught, and a sufficient part of the substance can be exploited.</p>
+<p>The further expansion of civilizations is already proceeding not only along the dwarfs, but first of all along the more tasty giants.</p>
 <h3 id="civilization-28">Civilization 2.8</h3>
 <p>Control over gravity.</p>
 <ul>
 <li>About 1e8 stars are settled (hundreds of millions).</li>
 </ul>
+<p>The combination of colossal energies with the highest precision allows manipulating the very fabric of reality, acting directly on the shape of space, which manifests itself as gravity. A new paradigm for the construction of starships, both military and civilian, is emerging. Traveling between the stars has never been so fast and comfortable.</p>
+<p>Thanks to the curvature of space, it became possible to create structures that were previously considered fundamentally impossible. The simplest of these is the monolithic Dyson sphere, which replaces the usual swarm of discrete objects. It is possible to do without it, but since there is a possibility now, then why not build it anyway.</p>
 <h3 id="civilization-29">Civilization 2.9</h3>
 <p>Movement of stars.</p>
 <ul>
 <li>About 1e9 stars are settled (billions).</li>
 <li>This is on the scale of a dwarf galaxy such as the Small Magellanic Cloud.</li>
 </ul>
+<p>It is possible to move stars with a very low acceleration almost immediately after going into space. Well, or after the construction of a more or less developed Dyson swarm, which from the point of view of such a civilization is about the same. No one here will be surprised by anything of the sort. No, the movement of stars actually means their acceleration to near-light speeds, like large starships. Which are just now being built around the stars. It is convenient to carry everything with you.</p>
+<p>The metropolis of this type of civilization is usually far away from the native planets of the species included in it. This is a cyclopean structure with a diameter of the order of a light year, erected around a stable star. It is possible to build larger, but in this case, the weakening of the straightening of the space will lead to the emergence of an event horizon around the structure. Even if the likelihood of such a failure is very small, no one is usually ready to take such risks.</p>
 <h2 id="type-3-civilizations">Type 3 Civilizations</h2>
 <p>Civilizations of galactic scale.</p>
+<p>Creatures still chained to their home planet or star cannot fully comprehend the greatness of galactic civilizations. The difference between them and the civilizations that just recently finished the construction of their first Dyson swarm, now confidently flying into deep space is the same as between those who begin to master their native star system and the first hunter-gatherers, wandering dejectedly across the savannah, mostly busy saving their own skin from aggressive fauna and only rarely staring at the stars. It is not possible for these hunter-gatherers to understand how the global information network works and why satellite telescopes are needed.</p>
+<p>Galactic civilizations are difficult to describe in archaic terms created in pre-cosmic times. For example, the population size of such civilizations does not matter. The difference is too great between the quintillion of “ordinary people” who in such civilizations can still survive and even live on planets, and between the “super-super-super-people” who have repeatedly gone through a chain of transformations, the first of which is known as “transhumanism”. These creatures can have entire planets as brains, rebuilt into computing centers, and star systems as bodies. Their will is transmitted not through the movements of the hands, but through the movements of celestial bodies. Their lifespan is not limited by anything other than their desires.</p>
+<p>And they perfectly understand that they still have something to strive for.</p>
 <h3 id="civilization-30">Civilization 3.0</h3>
 <p>Expansion into a galactic group is available.</p>
 <ul>
-<li>About 1e10 stars are settled (tens of billions).</li>
+<li>About 1e10 stars are settled (tens of billions) or 1 (several) dwarf galaxies.</li>
 <li>This is on the scale of a small galaxy such as the Large Magellanic Cloud.</li>
 </ul>
+<p>Even a single overcoming of the intergalactic distance is something transcendental. But these creatures have such a titanic potential in science, industry, energy and the will to advance, that they are able to unite distinct galaxies into a single conglomerate, inside which life is boiling.</p>
+<p>The technologies used for such operations operate in arcane ways. Unlike the good old antimatter engines, the exhaust from which can be detected with the naked eye through half the star system, the actions of galactic civilizations are often invisible to those who have not yet reached such a high level.</p>
 <h3 id="civilization-31">Civilization 3.1</h3>
 <ul>
-<li>About 1e11 stars are settled (hundreds of billions).</li>
+<li>About 1e11 stars are settled (hundreds of billions) or 1−10 (several or tens) smaller galaxies.</li>
 <li>This is on the scale of a medium galaxy such as the Milky Way.</li>
 </ul>
+<p>Artificial planets and huge space stations are located along popular interstellar routes. The principle has been known since time immemorial, and now it is applied to unite galaxies.</p>
+<p>These creatures are able to proclaim the inclusion of light on a new level. Now everyone can have a personal star with the desired properties.</p>
 <h3 id="civilization-32">Civilization 3.2</h3>
 <p>Utilization of white dwarfs.</p>
 <ul>
-<li>About 1e12 stars are settled (trillions).</li>
+<li>About 1e12 stars are settled (trillions) or 10−100 (tens or hundreds) smaller galaxies.</li>
 <li>This is on the scale of a large galaxy such as the Andromeda Galaxy.</li>
 </ul>
+<p>White dwarf matter is very difficult to work with because of its tendency to immediately explode as soon as it leaves the compressed star. Force fields and curvature of space make it possible to compensate for this, but no one particularly was seriously occupied by this research because of the non-obviousness of the advantages.</p>
+<p>At this level, civilization turns its attention to the industrial use of this sort of a degenerate matter. Some unexpected applications are found, including those related to changes in the topology of a space. There are ways to create structures, the internal volume of which exceeds the external, although so far the applicability of this effect is limited.</p>
 <h3 id="civilization-33">Civilization 3.3</h3>
 <p>Creation of black holes by focused radiation.</p>
 <ul>
-<li>About 1e13 stars are settled (tens of trillions).</li>
+<li>About 1e13 stars are settled (tens of trillions) or 100−1 000 (hundreds or thousands) smaller galaxies.</li>
 <li>This is on the scale of a giant galaxy such as the IC 1101.</li>
 </ul>
+<p>The idea of a kugelblitz, that is, a black hole created from energy, and not from matter, originated in pre-space times. However, the creation of such an exotic object requires the incredible precision of instruments that no longer operate just at the level of an individual fermion, but go much deeper.</p>
+<p>The use of such black holes opens up new possibilities for compact energy sources. Previous integalactic spaceships were about the size of a star. But now it is possible to build a very tiny one, something on a continental scale.</p>
 <h3 id="civilization-34">Civilization 3.4</h3>
 <p>Expansion into a galactic supercluster is available.</p>
 <ul>
-<li>About 1e14 stars are settled (hundreds of trillions) or 10 galaxies (tens).</li>
-<li>This is on the scale of a galactic group.</li>
+<li>About 1e14 stars are settled (hundreds of trillions) or 1 000−10 000 various galaxies (thousands or tens of thousands).</li>
 </ul>
+<p>Maintaining and expanding the infrastructure required for intergalactic expansion no longer requires the exertion of the entire supercivilization. The tasks of connecting another galaxy to the fast travel network are often delegated to small businesses.</p>
+<p>It is not easy to comprehend the structure of a society of this scale. “Simple” representatives of the original species, on the basis of which supercivilization developed, no longer remain seen. Although some hyper-beings give their appearance to some of their external bodies, simply because they can.</p>
+<p>By the standards of this civilization, a “poor hermit” is someone who does not have a personal star, preferably a mobile one. Such poor fellows make do with modest intergalactic starships of planetary proportions. Some of them leave densely populated areas of the universe, going to the depths of the voids, so that no one will disturb them.</p>
 <h3 id="civilization-35">Civilization 3.5</h3>
 <p>Utilization of neutron stars.</p>
 <ul>
-<li>About 1e15 stars are settled (quadrillions) or 100 galaxies (hundreds).</li>
+<li>About 1e15 stars are settled (quadrillions) or 1e4 galaxies (tens of thousands).</li>
 </ul>
+<p>Pure neutronium lends itself to direct study and processing by orders of magnitude worse than even the capricious matter of white dwarfs. Of course, this could no longer stop those who were interested in delving into the tissue of neutron stars for a long time. They make unusual souvenirs that amuse their kin. For a physicist of a planetary or stellar civilization, most likely, a meeting with such a product would cause an acute psychosis.</p>
+<p>But it's not about neutronium crafts. A combination of some high-tech gimmicks, backed by a decent level of energy, allows the interior of a neutron star to be rebuilt in such a way that it becomes liveable. According to some theories, the inhabitants of such shelters are able to withstand even a big crunch, moving into a new universe inside the greatest black hole more or less in one piece.</p>
 <h3 id="civilization-36">Civilization 3.6</h3>
 <p>Expansion into a galactic filament is available.</p>
 <ul>
-<li>About 1e16 stars are settled (tens of quadrillions) or 1 000 galaxies (thousands).</li>
+<li>About 1e16 stars are settled (tens of quadrillions) or 1e5 galaxies (hundreds of thousands).</li>
 <li>This is on the scale of a galactic supercluster.</li>
 </ul>
+<p>Galactic filaments are intertwined by fast moving lines. Massive reassembling of stars in fact creates new galaxies that are more comfortable for dwelling than natural ones.</p>
+<p>Local changes in the laws of nature affect the entire universe.</p>
 <h3 id="civilization-37">Civilization 3.7</h3>
 <p>Utilization of magnetars.</p>
 <ul>
-<li>About 1e17 stars are settled (hundreds of quadrillions) or 1e4 galaxies (tens of thousands).</li>
+<li>About 1e17 stars are settled (hundreds of quadrillions) or 1e6 galaxies (millions).</li>
 </ul>
+<p>They learned to work with electromagnetic forces at a decent level even in the pre-cosmic era, and their input was fundamental and important even in the later eras. But there was one hypothetical thing, theoretically invented a long time ago, that did not work out in practice: magnetic monopoles.</p>
+<p>When it became possible to inhabit magnetars from the inside, like other neutron stars, a close study of their super-powerful magnetic fields nevertheless made it possible to create this philosophical stone of physicists.</p>
+<p>With the creative use of magnetic monopoles on a sufficiently large scale, such tricks as two-dimensional stars or electric discharges on a megaparsec scale become possible.</p>
 <h3 id="civilization-38">Civilization 3.8</h3>
 <p>Expansion into a great wall is available.</p>
 <ul>
-<li>About 1e18 stars are settled (quintillions) or 1e5 galaxies (hundreds of thousands).</li>
+<li>About 1e18 stars are settled (quintillions) or 1e7 galaxies (tens of millions).</li>
 <li>This is on the scale of a galactic filament.</li>
 </ul>
+<p>These civilizations are growing to such a size that not all residents realize that they belong to them. Thanks to mysterious technologies, an active and fruitful existence is possible at various levels of being. Among them there are digital “virtual realities” launched on computing centers the size of a star system, “solid” existence on man-made structures of the intergalactic class, which is considered “usual” for a galactic civilization, and many more options.</p>
+<p>Some creatures spend time in the guise of representatives of the lower species, which are just beginning to conquer space or even their planet. The destruction of such a weak and primitive life is usually not interesting to anyone because of the triviality. Therefore, usually such visitors maintain neutrality or slightly help in development, changing the course of entire civilizations with light movements of thoughts. Such actions are the source of many prejudices and mythologemes.</p>
 <h3 id="civilization-39">Civilization 3.9</h3>
 <p>Utilization of black holes.</p>
 <ul>
-<li>About 1e19 stars are settled (tens of quintillions) or 1e6 galaxies (millions).</li>
+<li>About 1e19 stars are settled (tens of quintillions) or 1e8 galaxies (hundreds of millions).</li>
 </ul>
+<p>The breakdown of space-time, which occurs with the formation of the event horizon, remains one of the few insurmountable obstacles for such a civilization. The black hole cannot be left in any way, no extravagant methods help, although countless experiments have been carried out.</p>
+<p>A way has been discovered to “unwind” a black hole of stellar mass by increasing the rate of its evaporation by many orders of magnitude. In the process, a significant amount of energy is released, which is not surprising to such a civilization. But what is more interesting is what happens to the topology of the event horizon itself, which changes shape from spherical to toroidal. The insides of this “donut hole” reveal new possibilities for interaction with the fabric of the universe.</p>
 <h2 id="type-4-civilizations">Type 4 Civilizations</h2>
 <p>Civilizations of the universe scale.</p>
+<p>Universe civilizations are capable of everything. You can expect anything from them. Their representatives can easily take any form, visit backward civilizations of the galactic, stellar, cosmic or planetary level and do whatever they wish with them. No one has any chances to resist them, since every creature belonging to such a civilization personally controls the power of the entire galaxy.</p>
+<p>With the emergence of universe civilizations, the question may suddenly arise: who owns this universe – you or them?</p>
 <h3 id="civilization-40">Civilization 4.0</h3>
 <p>Temporal manipulations.</p>
 <ul>
-<li>About 1e20 stars are settled (hundreds of quintillions) or 1e7 galaxies (tens of millions).</li>
+<li>About 1e20 stars are settled (hundreds of quintillions) or 1e9 galaxies (billions).</li>
 </ul>
+<p>Relativistic effects make travel into the future a common consequence of moving at a fairly high speed. This is not a surprise to anyone. Much more interesting is the seemingly impossible journey into the past, entailing various paradoxes.</p>
+<p>The possibilities of civilization are becoming even more esoteric. These now include a journey from the future to the past until the moment when a black hole was first unwound in the universe. The theory allows you to go to earlier eras, right up to the beginning of the existence of the universe. Experiments are being carried out, but the results, reflected in the historical chronicles, are too contradictory to state anything with complete certainty.</p>
 <h3 id="civilization-41">Civilization 4.1</h3>
 <p>Expansion into the whole universe scale is available.</p>
 <ul>
-<li>About 1e21 stars are settled (sextillions) or 1e8 galaxies (hundreds of millions).</li>
+<li>About 1e21 stars are settled (sextillions) or 1e10 galaxies (tens of billions).</li>
 <li>This is on the scale of a great wall.</li>
 </ul>
+<p>The universe on a large scale resembles a chaotic interweaving of filaments and patches, composed of individual galaxies. Supercivilizations have no problems with traveling alongside these threads of matter. But the voids remained insurmountable obstacles for a long time. They can be travelled around, but it takes a very long time. And it was impossible to fly through.</p>
+<p>Now it is fine. It is not really convenient to fly directly through tens of megaparsecs of void. But arcane supertechnologies make it possible to spin black holes, stabilize their mass and use the resulting wormholes as gates for traveling such a colossal distance in a very short time.</p>
 <h3 id="civilization-42">Civilization 4.2</h3>
 <p>Utilization of supermassive black holes.</p>
 <ul>
-<li>About 1e22 stars are settled (tens of sextillions) or 1e9 galaxies (billions).</li>
+<li>About 1e22 stars are settled (tens of sextillions) or 1e11 galaxies (hundreds of billions).</li>
 </ul>
+<p>For a long time, scientific laboratories and even experimental industrial enterprises have been located near supermassive black holes. But from a practical point of view, they are not very useful. The monstrous mass that spreads gravitic attraction over a considerable distance, combined with the relatively small curvature of space in this area, makes interaction with these objects less effective than working with black holes of stellar mass.</p>
+<p>Everything changed when someone decided to unwind a smaller supermassive black hole, located in the core of an insignificant galaxy, to see where exactly the funnel of this cyclopean “donut” will lead. The results were not very clear, but in civilizations of this level there is a tendency to migrate to the centers of galaxies. They have found something there, and they are not telling.</p>
 <h3 id="civilization-43">Civilization 4.3</h3>
 <p>Folding space.</p>
 <ul>
-<li>About 1e23 stars are settled (hundreds of sextillions) or 1e10 galaxies (tens of billions).</li>
+<li>About 1e23 stars are settled (hundreds of sextillions) or 1e12 galaxies (trillions).</li>
 </ul>
+<p>The result of a long scientific and technical activity related to exotic materials, hyper-precise instruments, transcendental energies, the unimaginable power of computing technology, a prediction generator and much more interesting is the ability to fold space, completely changing its topology. Early experiments, which only made it possible to make a room from the inside several times larger than it is from the outside, now seem cute and naïve.</p>
+<p>It is sufficient to mention an amusing tourist wonder that has become possible: a gigaparsec hiking trail. It takes several days to complete. Along the way the guests of the attraction visit historical sites in their corresponding eras. The café near the first supernova explosion, where time is frozen outside, invariably attracts lovers of beautiful views.</p>
+<p>This universe is becoming very strange.</p>
 <h3 id="civilization-44">Civilization 4.4</h3>
 <p>Improbability field.</p>
 <ul>
-<li>About 1e24 stars are settled (septillions) or 1e11 galaxies (hundreds of billions).</li>
+<li>About 1e24 stars are settled (septillions) or 1e13 galaxies (tens of trillions).</li>
 <li>This is on the scale of a whole visible universe.</li>
-<li>You may assume this level as being the maximum. Further levels are only nominally existing. Such a huge universe that is required to support these civilizations is unlikely.</li>
 </ul>
-<h3 id="civilization-45">Civilization 4.5</h3>
-<ul>
-<li>About 1e25 stars are settled (tens of septillions) or 1e12 galaxies (trillions).</li>
-</ul>
-<h3 id="civilization-46">Civilization 4.6</h3>
-<ul>
-<li>About 1e26 stars are settled (hundreds of septillions) or 1e13 galaxies (tens of trillions).</li>
-</ul>
-<h3 id="civilization-47">Civilization 4.7</h3>
-<ul>
-<li>About 1e27 stars are settled (octillions) or 1e14 galaxies (hundreds of trillions).</li>
-</ul>
-<h3 id="civilization-48">Civilization 4.8</h3>
-<ul>
-<li>About 1e28 stars are settled (tens of octillions) or 1e15 galaxies (quadrillions).</li>
-</ul>
-<h3 id="civilization-49">Civilization 4.9</h3>
-<ul>
-<li>About 1e29 stars are settled (hundreds of octillions) or 1e16 galaxies (tens of quadrillions).</li>
-</ul>
-                
-              
-              
-                
-
-
-              
-            </article>
-          </div>
+<p>This civilization has populated an entire universe bubble, turning titanic volumes of space filled with matter into a kind of a huge city. Everything is available to her that is not absolutely impossible. And, as it turned out, there are not a lot of absolutely impossible things.</p>
+<p>With the help of special devices for cyclic twisting of temporal loops, it is possible to achieve the most unlikely effects. Every inhabitant of such a universe actually has a “magic wand” that fulfills any desires.</p>
+<p>Further development of civilization does not seem possible.</p></div>
+            </div>
         </div>
-        
-      </main>
-      
-        
-<footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../gameplay/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Gameplay" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Gameplay
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../privacy/" class="md-footer__link md-footer__link--next" aria-label="Next: Privacy" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Privacy
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
-      
+            <div class="modal-footer">
+            </div>
+        </div>
     </div>
-  </div>
-</footer>
-      
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
     </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "toc.integrate", "header.autohide"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.94ec81fe.min.js", "version": null}</script>
-    
-    
-      <script src="../../assets/javascripts/bundle.48dfec6c.min.js"></script>
-      
-    
-  </body>
+</div>
+
+    </body>
 </html>

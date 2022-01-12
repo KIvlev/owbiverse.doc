@@ -1,880 +1,179 @@
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
-      
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
         <link rel="canonical" href="https://owniverse.space/en/objects/">
-      
-      <link rel="icon" href="../../assets/icons/favicon-120x120.png">
-      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.8">
-    
-    
-      
+        <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>Objects - Owniverse</title>
-      
-    
-    
-      <link rel="stylesheet" href="../../assets/stylesheets/main.92558b1b.min.css">
-      
-        
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
-        
-      
-    
-    
-    
-      
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
-      
-    
-    
-    
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
-    
-    
-      
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link href="../../stylesheets/extra.css" rel="stylesheet">
 
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
 
-    
-    
-  </head>
-  
-  
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
-  
-    
-    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#objects" class="md-skip">
-          Skip to content
-        </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-      <header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Owniverse" class="md-header__button md-logo" aria-label="Owniverse" data-md-component="logo">
-      
-  <img src="../../assets/logo/logo-42x42.png" alt="logo">
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Owniverse</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            Owniverse
-          </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Objects
-            
-          </span>
-        </div>
-      </div>
-    </div>
-    
-    
-      <div class="md-header__option">
-        <div class="md-select">
-          
-          <button class="md-header__button md-icon" aria-label="Select language">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
-          </button>
-          <div class="md-select__inner">
-            <ul class="md-select__list">
-              
-                <li class="md-select__item">
-                  <a href="/ru/" hreflang="ru" class="md-select__link">
-                    Русский
-                  </a>
-                </li>
-                
-                <li class="md-select__item">
-                  <a href="/en/" hreflang="en" class="md-select__link">
-                    English
-                  </a>
-                </li>
-                
-            </ul>
-          </div>
-        </div>
-      </div>
-    
-    
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-      </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    
-    
-  </nav>
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Русский <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../ru/owniverse/" class="dropdown-item">Вселенная</a>
+</li>
+                                    
+<li>
+    <a href="../../ru/interface/" class="dropdown-item">Интерфейс</a>
+</li>
+                                    
+<li>
+    <a href="../../ru/objects/" class="dropdown-item">Объекты</a>
+</li>
+                                    
+<li>
+    <a href="../../ru/gameplay/" class="dropdown-item">Игровой процесс</a>
+</li>
+                                    
+<li>
+    <a href="../../ru/life/" class="dropdown-item">Жизнь</a>
+</li>
+                                    
+<li>
+    <a href="../../ru/privacy/" class="dropdown-item">Конфиденциальность</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">English <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../owniverse/" class="dropdown-item">Owniverse</a>
+</li>
+                                    
+<li>
+    <a href="../interface/" class="dropdown-item">Interface</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Objects</a>
+</li>
+                                    
+<li>
+    <a href="../gameplay/" class="dropdown-item">Gameplay</a>
+</li>
+                                    
+<li>
+    <a href="../life/" class="dropdown-item">Life</a>
+</li>
+                                    
+<li>
+    <a href="../privacy/" class="dropdown-item">Privacy</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
 
-
-  
-
-<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Owniverse" class="md-nav__button md-logo" aria-label="Owniverse" data-md-component="logo">
-      
-  <img src="../../assets/logo/logo-42x42.png" alt="logo">
-
-    </a>
-    Owniverse
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
-      
-      <label class="md-nav__link" for="__nav_1">
-        Русский
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Русский" data-md-level="1">
-        <label class="md-nav__title" for="__nav_1">
-          <span class="md-nav__icon md-icon"></span>
-          Русский
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/owniverse/" class="md-nav__link">
-        Вселенная
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/interface/" class="md-nav__link">
-        Интерфейс
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/objects/" class="md-nav__link">
-        Объекты
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/gameplay/" class="md-nav__link">
-        Игровой процесс
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/life/" class="md-nav__link">
-        Жизнь
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ru/privacy/" class="md-nav__link">
-        Конфиденциальность
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
-      
-      <label class="md-nav__link" for="__nav_2">
-        English
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="English" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
-          <span class="md-nav__icon md-icon"></span>
-          English
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../owniverse/" class="md-nav__link">
-        Owniverse
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../interface/" class="md-nav__link">
-        Interface
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Objects
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Objects
-      </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#resources" class="md-nav__link">
-    Resources
-  </a>
-  
-    <nav class="md-nav" aria-label="Resources">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#space" class="md-nav__link">
-    Space
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#hydrogen" class="md-nav__link">
-    Hydrogen
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#helium" class="md-nav__link">
-    Helium
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#metals" class="md-nav__link">
-    Metals
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#clouds" class="md-nav__link">
-    Clouds
-  </a>
-  
-    <nav class="md-nav" aria-label="Clouds">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#nebula" class="md-nav__link">
-    Nebula
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#globula" class="md-nav__link">
-    Globula
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#star-nursery" class="md-nav__link">
-    Star Nursery
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#molecular-cloud" class="md-nav__link">
-    Molecular Cloud
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#active-star-nursery" class="md-nav__link">
-    Active Star Nursery
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dwarf-stars" class="md-nav__link">
-    Dwarf Stars
-  </a>
-  
-    <nav class="md-nav" aria-label="Dwarf Stars">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#brown-dwarf" class="md-nav__link">
-    Brown Dwarf
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#red-dwarf" class="md-nav__link">
-    Red Dwarf
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#orange-dwarf" class="md-nav__link">
-    Orange Dwarf
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#yellow-dwarf" class="md-nav__link">
-    Yellow Dwarf
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#white-yellow-dwarf" class="md-nav__link">
-    White-Yellow Dwarf
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#giant-stars" class="md-nav__link">
-    Giant Stars
-  </a>
-  
-    <nav class="md-nav" aria-label="Giant Stars">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#red-giant" class="md-nav__link">
-    Red Giant
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#yellow-giant" class="md-nav__link">
-    Yellow Giant
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#blue-giant" class="md-nav__link">
-    Blue Giant
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#supergiant" class="md-nav__link">
-    Supergiant
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#hypergiant" class="md-nav__link">
-    Hypergiant
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#degenerate-objects" class="md-nav__link">
-    Degenerate Objects
-  </a>
-  
-    <nav class="md-nav" aria-label="Degenerate Objects">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#white-dwarf" class="md-nav__link">
-    White Dwarf
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#neutron-star" class="md-nav__link">
-    Neutron Star
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#magnetar" class="md-nav__link">
-    Magnetar
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#black-hole" class="md-nav__link">
-    Black Hole
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#supermassive-black-hole" class="md-nav__link">
-    Supermassive Black Hole
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#star-clusters" class="md-nav__link">
-    Star Clusters
-  </a>
-  
-    <nav class="md-nav" aria-label="Star Clusters">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#scattered-star-cluster" class="md-nav__link">
-    Scattered Star Cluster
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#small-star-cluster" class="md-nav__link">
-    Small Star Cluster
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#medium-star-cluster" class="md-nav__link">
-    Medium Star Cluster
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#large-star-cluster" class="md-nav__link">
-    Large Star Cluster
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#giant-star-cluster" class="md-nav__link">
-    Giant Star Cluster
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#elliptical-galaxies" class="md-nav__link">
-    Elliptical Galaxies
-  </a>
-  
-    <nav class="md-nav" aria-label="Elliptical Galaxies">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#dwarf-elliptical-galaxy" class="md-nav__link">
-    Dwarf Elliptical Galaxy
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#small-elliptical-galaxy" class="md-nav__link">
-    Small Elliptical Galaxy
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#medium-elliptical-galaxy" class="md-nav__link">
-    Medium Elliptical Galaxy
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#large-elliptical-galaxy" class="md-nav__link">
-    Large Elliptical Galaxy
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#giant-elliptical-galaxy" class="md-nav__link">
-    Giant Elliptical Galaxy
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#spiral-galaxies" class="md-nav__link">
-    Spiral Galaxies
-  </a>
-  
-    <nav class="md-nav" aria-label="Spiral Galaxies">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#dwarf-spiral-galaxy" class="md-nav__link">
-    Dwarf Spiral Galaxy
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#small-spiral-galaxy" class="md-nav__link">
-    Small Spiral Galaxy
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#medium-spiral-galaxy" class="md-nav__link">
-    Medium Spiral Galaxy
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#large-spiral-galaxy" class="md-nav__link">
-    Large Spiral Galaxy
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#giant-spiral-galaxy" class="md-nav__link">
-    Giant Spiral Galaxy
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#large-structures" class="md-nav__link">
-    Large Structures
-  </a>
-  
-    <nav class="md-nav" aria-label="Large Structures">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#galactic-group" class="md-nav__link">
-    Galactic Group
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#galactic-supercluster" class="md-nav__link">
-    Galactic Supercluster
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#galactic-filament" class="md-nav__link">
-    Galactic Filament
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#great-wall" class="md-nav__link">
-    Great Wall
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#universe-bubble" class="md-nav__link">
-    Universe Bubble
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../gameplay/" class="md-nav__link">
-        Gameplay
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../life/" class="md-nav__link">
-        Life
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../privacy/" class="md-nav__link">
-        Privacy
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../interface/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../gameplay/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
                 </div>
-              </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
             
-            
-          
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
-                
-                
-                <h1 id="objects">Objects</h1>
+            <li class="nav-item" data-level="1"><a href="#objects" class="nav-link">Objects</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#resources" class="nav-link">Resources</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#clouds" class="nav-link">Clouds</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#dwarf-stars" class="nav-link">Dwarf Stars</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#giant-stars" class="nav-link">Giant Stars</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#degenerate-objects" class="nav-link">Degenerate Objects</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#star-clusters" class="nav-link">Star Clusters</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#elliptical-galaxies" class="nav-link">Elliptical Galaxies</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#spiral-galaxies" class="nav-link">Spiral Galaxies</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#large-structures" class="nav-link">Large Structures</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="objects">Objects</h1>
 <p>The universe is assembled from different components. They are listed below.
 An object like a star or a galaxy can exist on its own or become part of a larger structure like a star cluster or a galactic group. Objects that became parts of such structures keep functioning as usual.</p>
 <h2 id="resources">Resources</h2>
@@ -884,26 +183,39 @@ An object like a star or a galaxy can exist on its own or become part of a large
 <li>Space and hydrogen are <strong>primary resources</strong>. The energy is converted directly into these.</li>
 <li>Helium and metals are <strong>complementary resources</strong>. They are harvested when stars complete their cycle of existence.</li>
 </ul>
+<p><strong>Energy</strong> is spent in the creation of hydrogen and space, both “manually” by clicking on the corresponding icons, and “naturally”, from the burning of stars and the contribution of clouds.</p>
+<p>The less energy remains, the more the production of hydrogen and space by stars and clouds slows down. This is difficult to notice, since the energy consumption corresponds to the creation of a large universe in which the production volumes are impressive due to the gigantic scale.</p>
 <h3 id="space">Space</h3>
 <p><strong>Space</strong> is required to place everything you add into the universe. To create more space, light up new stars! Also don't forget to combine the created stars into structures to get even more space.</p>
+<p>Space is produced from energy by stars. Massive stars produce space faster and in greater volumes. Most of the space is produced not during the ordinary life of a star in the form of a yellow dwarf or blue giant, but in that relatively short period when the main sequence star swells to the state of a red giant.</p>
+<p>An extremely large amount of space is produced by giant stars at the very end of their existence, after the end of the red giant stage. At this moment, a supernova explosion or gamma-ray burst occurs. These events destroy the star, make the planets of neighboring stars uninhabitable, but they produce a huge amount of space.</p>
+<p>Voids are a special form of space. These colossal volumes of nothingness are created along with the largest structures, starting with the galactic filaments. They are necessary to counteract the increasing compressive forces that are typical for the larger universes.</p>
 <h3 id="hydrogen">Hydrogen</h3>
 <p><strong>Hydrogen</strong> is used to create clouds and stars. Clouds convert energy into hydrogen. Stars convert energy into space and are required for the emergence of planets. Both of these object types are also used in creation of advanced structures.</p>
+<p>Hydrogen is created from energy in clouds and spiral galaxies. It is the simplest kind of matter, and it is required for the production of all material objects. Stars are assembled from hydrogen. Inside them it converts into helium and metals, which are released after the end of a star's life. Clouds are also condensed from hydrogen, and they are used to produce even more hydrogen.</p>
+<p>Star nurseries of both kinds and spiral galaxies of all sizes have the capability of automation. They do produce hydrogen, just like ordinary clouds, but a fraction of the produced matter is immediately used for the assembly of stars. Stars are produced in the same proportion in which they exist in the universe at the time of creation. Thus, the player can adjust the composition of the universe, despite the fact that most of the stars are usually created without his direct participation.</p>
 <h3 id="helium">Helium</h3>
 <p>Hydrogen that burns inside stars mostly turns into <strong>helium</strong>. It is not very useful, but you can't get rid of it. Helium is automatically spent in line of hydrogen if possible. This helps to conserve the more valuable resource.</p>
+<p>Helium is the main product of the burning of stars. It is chemically inert and not very important for the development of the subtle processes of the universe, such as life, but it does affect the composition of the stars and their evolution.</p>
+<p>Helium “pollutes” the hydrogen supply. From time to time, some stars are created with an admixture of helium, and not from pure hydrogen. These “dirty” stars are not fundamentally different from “pure” hydrogen stars, they are just like ones that are older, already partially converted into helium. Therefore, they outlive their term faster than normal. This is basically the reprocessing of waste, which otherwise would simply lie like a dead weight, increasing the density of the universe.</p>
+<p>There is no reason to maximize the production of helium somehow. But, if you need to know, the larger the star, the more helium it emits at the end.</p>
 <h3 id="metals">Metals</h3>
-<p><strong>Metals</strong> are heavier elements that “contaminate” your hydrogen and helium storage. And usually this is a good thing, because a greater “metallicity”, meaning the proportion of metals to hydrogen and helim, increases the chance for emergence of planets around new stars.<br />
-Metals appear when stars burn out, especially larger ones. But the general metallicity may shrink down, when the universe is filled by new objects made from pure hydrogen and helium, such as stars and clouds.</p>
+<p><strong>Metals</strong> are heavier elements that “contaminate” your hydrogen and helium storage. And usually this is a good thing, because a greater “metallicity”, meaning the proportion of metals to hydrogen and helim, increases the chance for emergence of planets around new stars.</p>
+<p>Metals appear when stars burn out, especially larger ones. But the general metallicity may shrink down, when the universe is filled by new objects made from pure hydrogen and helium, such as stars and clouds.</p>
+<p>All the elements of the periodic table that are heavier than helium are considered to be metals. They are required for the creation of planets, the development of life and basically for everything that can exist in the universe alongside simple stars and nebulae.</p>
+<p>Like helium, metals appear as a result of the stellar burning, and also do “pollute” the hydrogen supply. However, these additions of metals do not affect the lifespan of stars in significant amounts. But the higher the metallicity is, meaning the proportion of metals in the total mass of the matter in the universe, which generally consists of hydrogen and helium, the more planets have a chance to appear alongside new stars.</p>
+<p>The earliest stars, created from pure hydrogen, cannot have planets at all – they simply have nothing to be condensed from. High metallicity is beneficial for the emergence of life, and the yellow and blue giants are the most efficient metal producers. Larger stars produce metals faster, but also add huge amounts of helium to the universe, reducing metallicity rather than increasing it.</p>
 <h2 id="clouds">Clouds</h2>
 <p>Clouds are required to convert energy into hydrogen that is used to create the universe. From smaller basic clouds it is possible to construct more complex cloud structures.</p>
 <h3 id="nebula">Nebula</h3>
-<p>The simplest of clouds. Provides hydrogen and is used as a component for other cloud structures.</p>
+<p>Produces hydrogen. The simplest of the clouds, the smallest and the most sparse. Used to create denser globules that produce hydrogen faster than ordinary nebulae do.</p>
 <ul>
 <li>1 hydrogen.</li>
 <li>10 space.</li>
 <li>Lasts for 1е7 years.</li>
 </ul>
 <h3 id="globula">Globula</h3>
-<p>Provides hydrogen at a slower rate than nebulae of the same mass, but persists for longer and is more economical in taking space. Used in creation of larger clouds.</p>
+<p>Provides more hydrogen. An order of magnitude denser than the nebula, the globula is not only a valuable source of hydrogen in the early stages of the development of the universe, but it also serves as the basis for the creation of more advanced clouds.</p>
 <ul>
 <li>1 nebula.</li>
 <li>10 hydrogen.</li>
@@ -911,7 +223,8 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <li>Lasts for 3е7 years.</li>
 </ul>
 <h3 id="star-nursery">Star Nursery</h3>
-<p>Spends a fraction of produced hydrogen to automatically create stars.</p>
+<p>Produces hydrogen and stars. A star nursery produces much more hydrogen than the globula.</p>
+<p>Star nurseries of both kinds and spiral galaxies of all sizes have the capability of automation. They do produce hydrogen, just like ordinary clouds, but a fraction of the produced matter is immediately used for the assembly of stars. Stars are produced in the same proportion in which they exist in the universe at the time of creation. Thus, the player can adjust the composition of the universe, despite the fact that most of the stars are usually created without his direct participation.</p>
 <ul>
 <li>1 globula.</li>
 <li>200 hydrogen.</li>
@@ -919,7 +232,8 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <li>Lasts for 3е7 years.</li>
 </ul>
 <h3 id="molecular-cloud">Molecular Cloud</h3>
-<p>Large and long-lasting hydrogen generator.</p>
+<p>Produces a lot of hydrogen.</p>
+<p>These are the largest clouds that do not have the capability of automation, meaning that they do not create stars on their own. Use them to directly replenish hydrogen reserves and to create even larger clouds on their basis.</p>
 <ul>
 <li>1 globula.</li>
 <li>2 000 hydrogen.</li>
@@ -927,7 +241,8 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <li>Lasts for 3е8 years.</li>
 </ul>
 <h3 id="active-star-nursery">Active Star Nursery</h3>
-<p>Very large automatic hydrogen and stars generator.</p>
+<p>Very large automatic hydrogen and stars generator. The same as the usual star nursery, but significantly larger.</p>
+<p>Star nurseries of both kinds and spiral galaxies of all sizes have the capability of automation. They do produce hydrogen, just like ordinary clouds, but a fraction of the produced matter is immediately used for the assembly of stars. Stars are produced in the same proportion in which they exist in the universe at the time of creation. Thus, the player can adjust the composition of the universe, despite the fact that most of the stars are usually created without his direct participation.</p>
 <ul>
 <li>1 molecular cloud.</li>
 <li>2e5 hydrogen.</li>
@@ -937,30 +252,40 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <h2 id="dwarf-stars">Dwarf Stars</h2>
 <p><strong>Dwarf stars</strong> are cheap, they last for a long time and produce space efficiently. They can have <strong>planets</strong> that sometimes may harbor life at some point. The larger the dwarf star is, the greater is the chance of planets forming around it, including potentially habitable ones. But larger stars burn out faster than small ones.</p>
 <h3 id="brown-dwarf">Brown Dwarf</h3>
-<p>Rejects that happen during the star creation process. They just appear as subproducts of your activities and don’t matter much. They don’t even take space, contrary to all the other stars. You can’t create them manually, and you don’t need to.</p>
+<p>Useless, but doesn't take up space.</p>
+<p>Brown dwarfs are a side effect of star nurseries workflow. They are just existing there, you may ignore them. For a while they even do produce some space, and after that they just fly around and do not interfere with anything.</p>
+<p>A brown dwarf is a celestial body between a very large planet and a very small star. These objects do have enough mass to trigger simpler thermonuclear reactions based on deuterium, an isotope of hydrogen, but not those based on ordinary hydrogen. Deuterium is quite rare compared to hydrogen, therefore brown dwarfs relatively quickly stop burning and gradually cool down.</p>
 <h3 id="red-dwarf">Red Dwarf</h3>
-<p>It is cost-effective in space creation, but works very slowly. The cheapest full-fledged star and the most numerous one.</p>
+<p>The simplest star.</p>
+<p>This star is massive enough to trigger hydrogen-based thermonuclear reactions. It is very small, therefore it burns for a very long time, while it produces space extremely slowly. But around red dwarfs, when metallicity is sufficient, planets still can form, sometimes even suitable for life. The long life of such stars has a very positive effect on the chances of development of such life.</p>
+<p>Unlike the larger main sequence stars, a red dwarf does not pass through the red giant phase. Over time it simply transforms into a white dwarf.</p>
 <ul>
 <li>1 hydrogen.</li>
 <li>1 space.</li>
 <li>Lasts for 4e10 years.</li>
 </ul>
 <h3 id="orange-dwarf">Orange Dwarf</h3>
-<p>Perfect for the development of life. Does not burn as long as the red dwarf, but has a greater chance of habitable planet formation. Life there has plenty of time to advance.</p>
+<p>Star with planets. Small chance of life emergence.</p>
+<p>The smallest of the main sequence stars. Due to its small size, it has a rather narrow habitation zone. Only planets that do appear inside that zone have a chance for the formation of life. By this benchmark an orange dwarf succeeds only against a red dwarf, and life on a planet orbiting a red dwarf is considered to be exotic. However if the planet is lucky enough to be potentially habitable, then it has plenty of time for evolution.</p>
+<p>A main sequence star after the expiration of its lifespan turns into a red giant. This destroys all its local planets. Subsequently this red giant degenerates into a white dwarf.</p>
 <ul>
 <li>8 hydrogen.</li>
 <li>1 space.</li>
 <li>Lasts for 2e10 years.</li>
 </ul>
 <h3 id="yellow-dwarf">Yellow Dwarf</h3>
-<p>Good for the emergence of life. Has an increased chance of habitable planet formation compared to the orange dwarf. Burns long enough to provide life with good chances of advancing to the civilization stage.</p>
+<p>Star similar to the Sun. Modest chance of life emergence.</p>
+<p>An average dwarf star as it is. Has a wider habitation zone compared to the orange dwarf, but its’ lifepan is somewhat shorter. It has been factually proven that it is sufficient anyway.</p>
+<p>A main sequence star after the expiration of its lifespan turns into a red giant. This destroys all its local planets. Subsequently this red giant degenerates into a white dwarf.</p>
 <ul>
 <li>10 hydrogen.</li>
 <li>1 space.</li>
 <li>Lasts for 1e10 years.</li>
 </ul>
 <h3 id="white-yellow-dwarf">White-Yellow Dwarf</h3>
-<p>Has the largest habitable zone with the greatest potential for life emergence. But because of a high mass and temperature it burns out rapidly. Life rarely has enough time to advance into the space age to escape.</p>
+<p>Star with many planets. Greatest chances of life emergence.</p>
+<p>The largest of the dwarf stars. With a high metallicity and some luck, even one such star can have several potentially habitable planets at once. However, due to the large mass of the star, thermonuclear processes inside it are much more violent than in other dwarfs. Therefore, life around such stars should hurry up with evolution, if it does not want to be scorched by the red giant at the gentle stage of trilobites and fish.</p>
+<p>A main sequence star after the expiration of its lifespan turns into a red giant. This destroys all its local planets. Subsequently this red giant degenerates into a white dwarf.</p>
 <ul>
 <li>16 hydrogen.</li>
 <li>1 space.</li>
@@ -969,30 +294,46 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <h2 id="giant-stars">Giant Stars</h2>
 <p><strong>Giant stars</strong> are expensive, burn rapidly and produce a lot of space. At the end of their existence they collapse and explode. The explosion blast can damage planets at nearby stars, but it creates metals. The majority of giant stars explode as <strong>supernovae</strong> with neutron stars as remains. But sometimes vastly more destructive <strong>gamma-ray bursts</strong> happen, and as a result of these events stellar matter turns into a black hole right away.</p>
 <h3 id="red-giant">Red Giant</h3>
-<p>A star that has consumed the majority of its fuel. It degenerates quite rapidly. You can’t create these manually, they emerge themselves from all the stars that are larger than red dwarfs.</p>
+<p>Degrading old star.</p>
+<p>When a main sequence star, from an orange dwarf to a hypergiant, runs out of hydrogen, its thermonuclear reactions weaken and it begins to contract under the influence of its own gravity. The temperature rises in the core of this star due to the compression. It becomes high enough to trigger thermonuclear reactions based on helium, and this star has plenty of it. The violent release of energy leads to the subsequent expansion, swelling of the star, which destroys all the local planets. This is the red giant, a huge and a very sparse star that exists for a relatively short time while burning through its helium reserves.</p>
+<p>Red giants range from rather small, formerly orange dwarfs, to colossal, degenerate hypergiants. Their lifespan varies greatly, but in any case, they produce space quite rapidly.</p>
+<p>At the end of its relatively short existence, the core of the red giant shrinks into a degenerate object, and the outer layers scatter in space, returning some of the hydrogen, helium and metals to the general supply. The type of degenerate object and the processes accompanying this transformation depend on the type of the original star passing through the red giant stage.</p>
 <h3 id="yellow-giant">Yellow Giant</h3>
-<p>The most modest of giant stars. The explosion at the end of existence is not as destructive as with most others, and the probability of a gamma-ray burst is very low. Ideal for metal production if you're in no rush.</p>
+<p>The most modest of giant stars. Optimal for metals production.</p>
+<p>For a giant star, this one lives for a very long time. In addition to being the most beneficial way of converting hydrogen into metals, yellow giants are extra nice, because during their explosions, those around them suffer the least.</p>
+<p>A main sequence star turns into a red giant upon expiration. Subsequently, this red giant collapses with a supernova explosion, leaving a neutron star, or with a more destructive gamma-ray burst, which turns the star's core into a black hole.</p>
+<p>Any sort of explosion during such a collapse threatens life on neighboring stars. At the same time, a gamma-ray burst is significantly more destructive than a “normal” supernova explosion, but it produces more space. The larger the star, the higher is the likelihood of a gamma-ray burst. Larger stars also produce more space when they explode and hit more nearby stars.</p>
 <ul>
 <li>50 hydrogen.</li>
 <li>1 space.</li>
 <li>Lasts for 5e8 years.</li>
 </ul>
 <h3 id="blue-giant">Blue Giant</h3>
-<p>Common giant star. The destructive explosion at the end of its brief existence creates a lot of space. Less efficient in metal production than yellow giants, but you'll see results much sooner.</p>
+<p>Common giant star. Produces metals and space in a balanced manner.</p>
+<p>It does not live as long as the yellow giant, therefore the “return on investment” comes faster in the form of space, obtained from the red giant stage and collapse, as well as helium and, more importantly, metals. But it is still a quite stable star. Blue giants are very good at maintaining long-term, sustainable universes. However, without the larger stars, there might not be enough black holes to create structures.</p>
+<p>A main sequence star turns into a red giant upon expiration. Subsequently, this red giant collapses with a supernova explosion, leaving a neutron star, or with a more destructive gamma-ray burst, which turns the star's core into a black hole.</p>
+<p>Any sort of explosion during such a collapse threatens life on neighboring stars. At the same time, a gamma-ray burst is significantly more destructive than a “normal” supernova explosion, but it produces more space. The larger the star, the higher is the likelihood of a gamma-ray burst. Larger stars also produce more space when they explode and hit more nearby stars.</p>
 <ul>
 <li>100 hydrogen.</li>
 <li>1 space.</li>
 <li>Lasts for 1e8 years.</li>
 </ul>
 <h3 id="supergiant">Supergiant</h3>
-<p>Huge giant star. It does not live long, explodes extremely violently, but creates a lot of space and not too much metals. Greater chance of a gamma-ray burst.</p>
+<p>Huge giant star. Quickly produces space and a bit of metals.</p>
+<p>These stars are used for rapid, if not very urgent, space production without undue risk to life in the universe. They produce relatively little metals per unit of hydrogen deposited, so they are not very useful on their own, without support in the form of blue and yellow giants.</p>
+<p>A main sequence star turns into a red giant upon expiration. Subsequently, this red giant collapses with a supernova explosion, leaving a magnetar, or with a more destructive gamma-ray burst, which turns the star's core into a black hole.</p>
+<p>Any sort of explosion during such a collapse threatens life on neighboring stars. At the same time, a gamma-ray burst is significantly more destructive than a “normal” supernova explosion, but it produces more space. The larger the star, the higher is the likelihood of a gamma-ray burst. Larger stars also produce more space when they explode and hit more nearby stars.</p>
 <ul>
 <li>300 hydrogen.</li>
 <li>1 space.</li>
 <li>Lasts for 1e7 years.</li>
 </ul>
 <h3 id="hypergiant">Hypergiant</h3>
-<p>Extremely giant star. Always collapses into a black hole, creating a colossal amount of space. Burns too violently to create significant amounts of metals. Maximum chance of a gamma-ray burst.</p>
+<p>Extremely giant star. Burns violently, creating a lot of space.</p>
+<p>An extreme star with a very short lifespan. It gives off an incredible amount of space, especially with a gamma-ray burst, the probability of which is much higher than that of any other star. Extremely dangerous to life in the universe. Use with care.</p>
+<p>A hypergiant always turns into a black hole, even in a “normal” supernova explosion without a gamma-ray burst.</p>
+<p>A main sequence star turns into a red giant upon expiration. Subsequently, this red giant collapses with a supernova explosion or with a more destructive gamma-ray burst.</p>
+<p>Any sort of explosion during such a collapse threatens life on neighboring stars. At the same time, a gamma-ray burst is significantly more destructive than a “normal” supernova explosion, but it produces more space. The larger the star, the higher is the likelihood of a gamma-ray burst. Larger stars also produce more space when they explode and hit more nearby stars.</p>
 <ul>
 <li>1 000 hydrogen.</li>
 <li>1 space.</li>
@@ -1002,18 +343,35 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <p><strong>Burned stars</strong> that have exhausted their fusion fuel. They occupy space and do not produce anything, but can be used in forming structures.</p>
 <h3 id="white-dwarf">White Dwarf</h3>
 <p>The remains of a dwarf star.</p>
+<p>White dwarfs do not produce anything and have no planets, but they continue to occupy one unit of space. On the bright side, they can be used to assemble structures such as star clusters and galaxies, since they are considered to be stars.</p>
+<p>When a red giant runs out of helium, its core continues to shrink as a result of its own gravitational forces. Heating up triggers metal-based thermonuclear reactions, but they are short-lived, since there are not too many metals available. In the end, the outer shell returns a portion of the stellar matter to the general supply, and the core turns into a degenerate object.</p>
+<p>White dwarfs are composed of substances such as carbon and iron, that are considered to be metals in the astronomical sense. But they are monstrously compressed. While having stellar mass, white dwarfs have planetary dimensions. It is often said that a fist-sized chunk of a white dwarf matter on the surface of the Earth would weigh about 2,500 tons and would immediately fall under its own mass towards the center of the planet. However, in reality, it would simply explode, since nothing would prevent such a highly compressed substance from expanding.</p>
 <h3 id="neutron-star">Neutron Star</h3>
 <p>Exceptionally compact remains of a giant star.</p>
+<p>Neutron stars do not produce anything and do not have planets, but continue to occupy one unit of space. On the bright side, they can be used to assemble structures such as star clusters and galaxies, since they are considered to be stars.</p>
+<p>When a red giant runs out of helium, its core continues to shrink as a result of its own gravitational forces. Heating up triggers metal-based thermonuclear reactions, but they are short-lived, since there are not too many metals available. In the end, the outer shell returns a portion of the stellar matter to the general supply, and the core turns into a degenerate object.</p>
+<p>Matter in neutron stars is compressed so strongly that electrons are pressed into the nuclei of atoms, merge with protons and turn into neutrons. Chemistry “breaks down”, it cannot describe such a state of matter, but physics continues to work. Such stars have dimensions comparable to those of a large city. They rotate very quickly and emit the majority of their radiation in the x-ray range of the spectrum.</p>
 <h3 id="magnetar">Magnetar</h3>
 <p>The most dense object that is not a black hole.</p>
+<p>Magnetars do not produce anything and do not have planets, but they continue to occupy one unit of space. On the bright side, they can be used to assemble structures such as star clusters and galaxies, since they are considered to be stars.</p>
+<p>When a red giant runs out of helium, its core continues to shrink as a result of its own gravitational forces. Heating up triggers metal-based thermonuclear reactions, but they are short-lived, since there are not too many metals available. In the end, the outer shell returns a portion of the stellar matter to the general supply, and the core turns into a degenerate object.</p>
+<p>A magnetar is a type of neutron star that has an unusually powerful magnetic field, the strongest in the universe. Over time, the magnetic field weakens and the magnetar becomes similar to any other neutron star.</p>
 <h3 id="black-hole">Black Hole</h3>
-<p>The remains of a giant star that experienced a destructive collapse. They can be merged into supermassive black holes.</p>
+<p>The result of a stellar catastrophe.</p>
+<p>Black holes appear from all the giants during gamma-ray bursts, that is, with a small probability that rises up with increasing explosiveness. Hypergiants always turn into black holes.</p>
+<p>When a red giant runs out of helium, its core continues to shrink as a result of its own gravitational forces. Heating up triggers metal-based thermonuclear reactions, but they are short-lived, since there are not too many metals available. In the end, the outer shell returns a portion of the stellar matter to the general supply, and the core turns into a degenerate object.</p>
+<p>A core that is massive enough compresses matter beyond the durability limits of neutron stars. At some point, not just chemistry, but also physics “breaks down”, the fabric of space and time itself is destroyed, matter is compressed to an incredible density, forming an event horizon around the central region – an area that even light cannot leave because of the monstrous curvature of space caused by the exorbitant attraction of a concentrated mass.</p>
 <h3 id="supermassive-black-hole">Supermassive Black Hole</h3>
-<p>The result of the multitudes of stellar mass black holes merged into one. They are necessary for galactic formation. Contrary to smaller black holes they grow in time, consuming other stars, but do so very slowly.</p>
+<p>Merged from black holes. Needed for galaxies.</p>
+<p>Ordinary black holes have different masses, depending on the history of their origin. This mass is indicated on the SMBH assembly buttons. In practice, it is not very important which specific black holes are used, but accuracy is accuracy.</p>
+<p>You can take SMBH not as one specific colossal object, but as a resource, a supply of black holes intended for merging. Pieces with sufficient mass to hold the galactic nucleus are “pinched off” from this resource, if necessary. Such a trick cannot be done by literally “sawing” a huge black hole to pieces. Therefore, when creating a galaxy, in fact, you take a certain number of black holes that have already been deposited in the stock of SMBH, and only at this moment you mold one huge object of the required mass out of them.</p>
+<p>The more massive the black hole, the lower is the average density inside its event horizon. A hypothetical black hole with a mass in order of a large enough universe will have approximately the same density.</p>
 <h2 id="star-clusters">Star Clusters</h2>
 <p><strong>Star clusters</strong> are the most modest of available structures. As a matter of fact these are just a lot of stars which are co-located closer to each other than usual, and therefore they are gravitationally bound. But even such simple lumps already bring noticeable variety into the homogenous landscape of the universe.</p>
+<p>When structures are assembled from stars, these stars do not disappear. They preserve the planets and continue to produce space, gradually evolving into a degenerate object. The space bonus specified in the structure descriptions is added to the space production of all the stars in the structure. After the end of the structure's life, the objects of which it consisted are returned to the general supply.</p>
 <h3 id="scattered-star-cluster">Scattered Star Cluster</h3>
 <p>A little structure of irregular shape.</p>
+<p>Scattered clusters are smaller than others. They do not exist for long, since the gravitational connection between their stars is not very strong and over time they simply drift apart.</p>
 <ul>
 <li>1 000 stars.</li>
 <li>Lasts for 1е7 years.</li>
@@ -1021,6 +379,7 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 </ul>
 <h3 id="small-star-cluster">Small Star Cluster</h3>
 <p>Has globular shape.</p>
+<p>In the cores of small and larger clusters there are black holes that gravitationally “glue” these structures and prevent them from disintegrating for a long time. The larger the cluster, the more space is produced by its stars.</p>
 <ul>
 <li>1e4 stars.</li>
 <li>10 black holes.</li>
@@ -1029,6 +388,7 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 </ul>
 <h3 id="medium-star-cluster">Medium Star Cluster</h3>
 <p>Noticeable from afar off.</p>
+<p>In the cores of small and larger clusters there are black holes that gravitationally “glue” these structures and prevent them from disintegrating for a long time. The larger the cluster, the more space is produced by its stars.</p>
 <ul>
 <li>1e5 stars.</li>
 <li>100 black holes.</li>
@@ -1037,6 +397,7 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 </ul>
 <h3 id="large-star-cluster">Large Star Cluster</h3>
 <p>Makes an impression.</p>
+<p>In the cores of small and larger clusters there are black holes that gravitationally “glue” these structures and prevent them from disintegrating for a long time. The larger the cluster, the more space is produced by its stars.</p>
 <ul>
 <li>1e6 stars.</li>
 <li>1 000 black holes.</li>
@@ -1045,6 +406,7 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 </ul>
 <h3 id="giant-star-cluster">Giant Star Cluster</h3>
 <p>Causes awe.</p>
+<p>In the cores of small and larger clusters there are black holes that gravitationally “glue” these structures and prevent them from disintegrating for a long time. The larger the cluster, the more space is produced by its stars.</p>
 <ul>
 <li>1e7 stars.</li>
 <li>1e4 black holes.</li>
@@ -1052,57 +414,64 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <li>Space +80%.</li>
 </ul>
 <h2 id="elliptical-galaxies">Elliptical Galaxies</h2>
-<p><strong>Elliptical galaxies</strong> resemble colossal star clusters. They have lenticular shapes, rotate slowly and look very much alike to each other. Star formation is almost completely absent there, so if no life emerged in such a galaxy during the first couple of billion years, then it probably won’t emerge later. On the other hand, the light emission in these galaxies is not scattered by clouds of gas and dust, therefore stars there produce space at a higher rate than in spiral galaxies.</p>
-<p>Civilizations develop faster in smaller galaxies, but they earlier grow into a cap which they can't overcome. For the emergence of a supercivilization on a universe scale a greater galaxy is neccessary.</p>
+<p><strong>Elliptical galaxies</strong> resemble colossal star clusters. At their centers there are imposing supermassive black holes, around which billions of stars revolve, forming a galaxy. The larger the galaxy, the more space is produced by its stars. Also, in larger galaxies, the potential for the development of powerful stellar civilizations is greater.</p>
+<p>When structures are assembled from stars, these stars do not disappear. They preserve the planets and continue to produce space, gradually evolving into a degenerate object. The space bonus specified in the structure descriptions is added to the space production of all the stars in the structure. After the end of the structure's life, the objects of which it consisted are returned to the general supply.</p>
 <h3 id="dwarf-elliptical-galaxy">Dwarf Elliptical Galaxy</h3>
+<p>The size of the Small Magellanic Cloud.</p>
 <ul>
 <li>1e9 stars.</li>
 <li>100 star clusters.</li>
 <li>1e6 black holes.</li>
 <li>Supermassive black hole weighing 1e4.</li>
 <li>Lasts for 1.2е10 years.</li>
-<li>Space +10%.</li>
+<li>Space +100%.</li>
 </ul>
 <h3 id="small-elliptical-galaxy">Small Elliptical Galaxy</h3>
+<p>The size of the Large Magellanic Cloud.</p>
 <ul>
 <li>1e10 stars.</li>
 <li>1 000 star clusters.</li>
 <li>1e7 black holes.</li>
 <li>Supermassive black hole weighing 1e5.</li>
 <li>Lasts for 1.3е10 years.</li>
-<li>Space +15%.</li>
+<li>Space +150%.</li>
 </ul>
 <h3 id="medium-elliptical-galaxy">Medium Elliptical Galaxy</h3>
+<p>The size of the Milky Way.</p>
 <ul>
 <li>1e11 stars.</li>
 <li>1e4 star clusters.</li>
 <li>1e8 black holes.</li>
 <li>Supermassive black hole weighing 1e6.</li>
 <li>Lasts for 1.5е10 years.</li>
-<li>Space +20%.</li>
+<li>Space +200%.</li>
 </ul>
 <h3 id="large-elliptical-galaxy">Large Elliptical Galaxy</h3>
+<p>The size of the Andromeda Galaxy.</p>
 <ul>
 <li>1e12 stars.</li>
 <li>1e5 star clusters.</li>
 <li>1e9 black holes.</li>
 <li>Supermassive black hole weighing 1e7.</li>
 <li>Lasts for 1.7е10 years.</li>
-<li>Space +30%.</li>
+<li>Space +300%.</li>
 </ul>
 <h3 id="giant-elliptical-galaxy">Giant Elliptical Galaxy</h3>
+<p>Similar to the IC 1101.</p>
 <ul>
 <li>1e13 stars.</li>
 <li>1e6 star clusters.</li>
 <li>1e10 black holes.</li>
 <li>Supermassive black hole weighing 1e8.</li>
 <li>Lasts for 2е10 years.</li>
-<li>Space +45%.</li>
+<li>Space +450%.</li>
 </ul>
 <h2 id="spiral-galaxies">Spiral Galaxies</h2>
-<p><strong>Spiral galaxies</strong> spin faster than elliptical ones. They have anisotropic structure with arms and keep active star formation. After a while spiral galaxies exhaust their stockpile of gas, slow down and revert into more stable and boring elliptical ones.</p>
-<p>In spiral galaxies civilizations advance much faster than in elliptical ones. Smaller galaxies are still not adequate to harbor a potential universe scale supercivilization.</p>
+<p><strong>Spiral galaxies</strong>, just like star nurseries, have the capability of automation. They produce hydrogen and a portion of it is immediately put into the assembly of stars, according to the proportional composition of the universe. Spiral galaxies retain their space production bonus from their corresponding elliptical ones. Over time, they degrade, again turning into elliptical ones.</p>
+<p>Galaxies resemble star clusters of colossal size. At their centers there are imposing supermassive black holes, around which billions of stars revolve, forming a galaxy. The larger the galaxy, the more space is produced by its stars. Also, in larger galaxies, the potential for the development of powerful stellar civilizations is greater.</p>
+<p>When structures are assembled from stars, these stars do not disappear. They preserve the planets and continue to produce space, gradually evolving into a degenerate object. The space bonus specified in the structure descriptions is added to the space production of all the stars in the structure. After the end of the structure's life, the objects of which it consisted are returned to the general supply.</p>
 <h3 id="dwarf-spiral-galaxy">Dwarf Spiral Galaxy</h3>
+<p>Similar to the Small Magellanic Cloud.</p>
 <ul>
 <li>1 dwarf elliptical galaxy.</li>
 <li>1e5 star nurseries.</li>
@@ -1110,6 +479,7 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <li>Lasts for 2e9 years.</li>
 </ul>
 <h3 id="small-spiral-galaxy">Small Spiral Galaxy</h3>
+<p>Similar to the Large Magellanic Cloud.</p>
 <ul>
 <li>1 small elliptical galaxy.</li>
 <li>1e6 star nurseries.</li>
@@ -1117,6 +487,7 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <li>Lasts for 3e9 years.</li>
 </ul>
 <h3 id="medium-spiral-galaxy">Medium Spiral Galaxy</h3>
+<p>Similar to the Milky Way.</p>
 <ul>
 <li>1 medium elliptical galaxy.</li>
 <li>1e7 star nurseries.</li>
@@ -1124,6 +495,7 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <li>Lasts for 4e9 years.</li>
 </ul>
 <h3 id="large-spiral-galaxy">Large Spiral Galaxy</h3>
+<p>Similar to the Andromeda Galaxy.</p>
 <ul>
 <li>1 large elliptical galaxy.</li>
 <li>1e8 star nurseries.</li>
@@ -1131,6 +503,7 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <li>Lasts for 6e9 years.</li>
 </ul>
 <h3 id="giant-spiral-galaxy">Giant Spiral Galaxy</h3>
+<p>The size of the IC 1101.</p>
 <ul>
 <li>1 giant elliptical galaxy.</li>
 <li>1e9 star nurseries.</li>
@@ -1140,107 +513,121 @@ Metals appear when stars burn out, especially larger ones. But the general metal
 <h2 id="large-structures">Large Structures</h2>
 <p><strong>Large structures</strong> are called that for a reason: whole galaxies are used there as building blocks. They are needed to arrange the universe on the largest scales. Without them the space, uniformly filled by stars and galaxies, becomes too monotonous and sparse, meanwile these structures create a packing gradient with more and less dense regions. This arrangement is better fit for being claimed and developed by superadvanced sapient beings.</p>
 <h3 id="galactic-group">Galactic Group</h3>
+<p>Aggregates galaxies.</p>
+<p>A galactic group does nothing by itself. But their assembly is necessary for the further progress of structures of a universal scale, as well as for the development of supercivilizations of the galactic level. Galaxies that have become part of the group continue to function as usual.</p>
+<p>The name of this structure fully describes its essence. This is a certain number of galaxies in the closest neighborhood to each other.</p>
 <ul>
 <li>50 galaxies.</li>
 <li>Lasts for 1е10 years.</li>
 </ul>
 <h3 id="galactic-supercluster">Galactic Supercluster</h3>
+<p>Basis for the structure of the universe.</p>
+<p>A galactic supercluster does nothing by itself. But their assembly is necessary for the further progress of structures of a universal scale, as well as for the development of supercivilizations of the galactic level. Objects that have become part of other structures continue to function as usual.</p>
+<p>A galactic supercluster consists of many galactic groups. The distances between the distant parts of the supercluster are so great that only the most powerful civilizations can seriously consider these colossal structures as something whole. For the rest, the supercluster is perceived as a part of the endless expanse of the universe, so huge that it is difficult even to comprehend it, let alone to fly around and even more to master it.</p>
 <ul>
 <li>200 galactic groups.</li>
 <li>Lasts for 2е10 years.</li>
 </ul>
 <h3 id="galactic-filament">Galactic Filament</h3>
+<p>Balances density with voids. Adds five voids.</p>
+<p>The universe at its maximum scale is composed of interweaving galactic filaments. These filaments, in turn, are collected from many superclusters and so on down to individual stars.</p>
+<p>Alongside the creation of a filament huge volumes of emptiness appear, the so-called voids. A void is a special form of empty space. They cannot be filled with substance, and it is not necessary. Voids reduce the density of the universe and help resist the gravitational collapse, which seems inevitable given its large enough size.</p>
 <ul>
 <li>100 galactic superclusters.</li>
 <li>Lasts for 3е10 years.</li>
 </ul>
 <h3 id="great-wall">Great Wall</h3>
+<p>Reinforces the structure of the universe. Adds ten thousand voids.</p>
+<p>Galactic filaments are woven into patches and other larger pieces of fabric of the universe, called great walls. These structures extend over tens, sometimes even hundreds of megaparsecs. They are the largest structures in the universe, with the exception of the universe itself.</p>
+<p>Alongside the creation of a great wall huge volumes of emptiness appear, the so-called voids. A void is a special form of empty space. They cannot be filled with substance, and it is not necessary. Voids reduce the density of the universe and help resist the gravitational collapse, which seems inevitable given its large enough size.</p>
+<p>Voids from filaments, like all the other properties of objects assembled into larger structures, are preserved.</p>
 <ul>
 <li>1 000 galactic filaments.</li>
 <li>Lasts for 6е10 years.</li>
 </ul>
 <h3 id="universe-bubble">Universe Bubble</h3>
-<p>This is the scale of the visible universe.<br />
-That's the extent of it.</p>
+<p>This is the scale of the visible universe. That's the extent of it. Adds a billion voids.</p>
+<p>The patches and ribbons of the great walls, connected by bundles of individual filaments, are intertwined into a colossal ball or a bubble, about the size of the visible universe. It is unknown what lies outside of our universe bubble, but it is assumed that the universe does not end there. Therefore, you also are not limited in the creation of just one universal bubble, but able to make much more.</p>
+<p>Alongside the creation of a universal bubble, huge volumes of emptiness appear, the so-called voids. A void is a special form of empty space. They cannot be filled with substance, and it is not necessary. Voids reduce the density of the universe and help resist the gravitational collapse, which seems inevitable given its large enough size.</p>
+<p>Voids from walls and filaments, like all the other properties of objects assembled into larger structures, are preserved.</p>
 <ul>
 <li>1 000 great walls.</li>
 <li>Lasts for 1е11 years.</li>
-</ul>
-                
-              
-              
-                
-
-
-              
-            </article>
-          </div>
+</ul></div>
+            </div>
         </div>
-        
-      </main>
-      
-        
-<footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../interface/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Interface" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Interface
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../gameplay/" class="md-footer__link md-footer__link--next" aria-label="Next: Gameplay" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Gameplay
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
-      
+            <div class="modal-footer">
+            </div>
+        </div>
     </div>
-  </div>
-</footer>
-      
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
     </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "toc.integrate", "header.autohide"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.94ec81fe.min.js", "version": null}</script>
-    
-    
-      <script src="../../assets/javascripts/bundle.48dfec6c.min.js"></script>
-      
-    
-  </body>
+</div>
+
+    </body>
 </html>
